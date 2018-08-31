@@ -1,0 +1,8 @@
+prefix=/home/chel/rmc_2019/rmc_2019_ws/devel
+
+Name: aruco_msgs
+Description: Description of aruco_msgs
+Version: 0.2.3
+Cflags: -I/home/chel/rmc_2019/rmc_2019_ws/devel/include
+Libs: -L/home/chel/rmc_2019/rmc_2019_ws/devel/lib 
+Requires: message_runtime geometry_msgs std_msgs

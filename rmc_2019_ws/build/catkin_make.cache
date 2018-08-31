@@ -1,0 +1,2 @@
+aruco_ros/aruco:aruco_ros/aruco_msgs:aruco_ros/aruco_ros:common_msgs/actionlib_msgs:common_msgs/common_msgs:common_msgs/diagnostic_msgs:common_msgs/geometry_msgs:common_msgs/nav_msgs:common_msgs/sensor_msgs:common_msgs/shape_msgs:common_msgs/stereo_msgs:common_msgs/trajectory_msgs:common_msgs/visualization_msgs:depthimage_to_laserscan:joint_state_publisher/joint_state_publisher:new_robot:robot_state_publisher:state_machine
+-DCATKIN_DEVEL_PREFIX=/home/chel/rmc_2019/rmc_2019_ws/devel -DCMAKE_INSTALL_PREFIX=/home/chel/rmc_2019/rmc_2019_ws/install -G Unix Makefiles

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<launch>
+ <master auto="start"/>
+
+  <node name="map_server" pkg="map_server" type="map_server" args="$(find new_robot)/maps/rmc-2016-arena.yaml" />
+
+  <node pkg="move_base" type="move_base" respawn="true" 
+      name="move_base" output="screen">
+
+   <remap from="/odom" to="/rtabmap/odom" />
+
+   <param name="controller_frequency" type="double" value="5.0"/>
+   <param name="recovery_behavior_enabled" value="false"/>
+   <param name="base_local_planner" value="teb_local_planner/TebLocalPlannerROS"/>
+   
+   <rosparam file="$(find new_robot)/config/costmap_common_params.yaml"
+  			command="load"	ns="global_costmap" />
+   <rosparam file="$(find new_robot)/config/costmap_common_params.yaml"
+  			command="load" ns="local_costmap" />
+   <rosparam file="$(find new_robot)/config/local_costmap_params.yaml"
+  			command="load" />
+   <rosparam file="$(find new_robot)/config/global_costmap_params.yaml"
+  			command="load" />
+   <rosparam file="$(find new_robot)/config/base_local_planner_params.yaml"
+  			command="load" />
+  </node>
+</launch>

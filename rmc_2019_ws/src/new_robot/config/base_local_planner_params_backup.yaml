@@ -1,0 +1,32 @@
+TebLocalPlannerROS:
+
+  max_vel_x: 2.0
+  min_vel_x: 1.5
+  max_vel_y: 0
+  min_vel_theta: -10.0
+  max_vel_theta: 10.0
+  min_rot_vel: -10.0
+  min_in_place_vel_theta: -10.0
+  min_in_place_rotational_vel: -10.0
+
+  escape_vel: -3.0
+  max_vel_x_backwards: -3.0
+  sim_time: 4.0
+
+  acc_lim_th: 4.0
+  acc_lim_x: 4.0
+  acc_lim_y: 4.0
+
+  controller_frequency: 20.0
+
+  yaw_goal_tolerance: 0.5
+  xy_goal_tolerance: 0.3
+
+  holonomic_robot: false
+  meter_scoring: true
+
+  allow_init_with_backwards_motion: true
+  free_goal_vel: true
+  footprint_padding: 0
+  global_plan_overwrite_orientation: false
+

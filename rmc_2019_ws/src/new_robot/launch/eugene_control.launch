@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+
+ <rosparam file="$(find new_robot)/config/eugene_control.yaml" command="load"/>
+
+ <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
+  output="screen" ns="/eugene" args="joint1_position_controller"/>
+
+</launch>
+
+

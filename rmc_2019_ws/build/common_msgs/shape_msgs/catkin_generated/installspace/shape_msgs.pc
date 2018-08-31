@@ -1,0 +1,8 @@
+prefix=/home/chel/rmc_2019/rmc_2019_ws/install
+
+Name: shape_msgs
+Description: Description of shape_msgs
+Version: 1.12.6
+Cflags: -I/home/chel/rmc_2019/rmc_2019_ws/install/include
+Libs: -L/home/chel/rmc_2019/rmc_2019_ws/install/lib 
+Requires: geometry_msgs message_runtime std_msgs

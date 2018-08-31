@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<launch>
+ <include file="$(find new_robot)/launch/move_base.launch" />
+ <include file="$(find new_robot)/launch/rtabmap_with_odom.launch" /> 
+ <include file="$(find new_robot)/launch/static_transforms.launch" /> 
+ <include file="$(find new_robot)/launch/aruco_detection.launch" />
+ <include file="$(find new_robot)/launch/eugene_control.launch" />
+
+ <env name="GAZEBO_MODEL_PATH" value="$(find new_robot)" />
+
+ <include file="$(find gazebo_ros)/launch/empty_world.launch">
+  <arg name="paused" value="false" />
+  <arg name="use_sim_time" value="true" />
+  <arg name="gui" value="true" />
+  <arg name="headless" value="false" />
+  <arg name="world_name" value="$(find new_robot)/worlds/LunArena.world" /> 
+ </include>
+
+ <param name="robot_description" textfile="$(find new_robot)/eugene_robot.urdf" />
+
+ <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" >
+   <param name="publish_frequency" type="double" value="20" />
+   </node>
+ 
+ <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model"
+ 	   args="-param robot_description -urdf -model eugene_robot -x 0 -y -0.3 -z 0.28 -R 0 -P 0 -Y 3.14159265359" />
+
+ <node pkg="depthimage_to_laserscan" type="depthimage_to_laserscan" name="depthimage_to_laserscan" >
+        <param name="scan_height" value="1"/> 
+        <param name="output_frame_id" value="base_link"/>
+        <remap from="image" to="camera/depth/image_raw" />
+    </node>
+
+ <node name="aruco_localize" pkg="new_robot" type="aruco_localize" output="screen" />
+
+</launch>

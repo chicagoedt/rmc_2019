@@ -1,0 +1,1046 @@
+<?xml version="1.0"?>
+<robot name="eugene">
+
+ <link name="base_link" >
+  <visual>
+  <origin rpy="0 0 1.570796327" xyz="0.5 0 -0.35"/> 
+   <geometry>
+    <mesh filename="package://new_robot/meshes/base_assembly.STL" scale="0.001 0.001 0.001"/> 
+   </geometry>
+   <material name="">
+    <color rgba="0.898039215686275 0.917647058823529 0.929411764705882 1"/>
+   </material>
+  </visual>
+  <collision>
+   <origin rpy="0 0 1.570796327" xyz="0.5 0 -0.5"/>
+	<geometry>
+     <mesh filename="package://new_robot/meshes/base_assembly.STL" scale="0.001 0.001 0.001" />
+	</geometry>
+  </collision>
+  <inertial>
+   <origin rpy="0 0 1.570796327" xyz="0.5 0 -0.5"/>
+   <mass value="0.05"/>
+   <inertia ixx="0.015" iyy="0.0375" izz="0.0375"
+   			ixy="0" ixz="0" iyz="0"/>
+   </inertial>
+  </link>
+ 
+ <link name="kinect_link">
+  <collision>
+   <origin xyz="0 0 0" rpy="0 0.349066 0"/>
+   <geometry>
+    <box size="0.1 0.2 0.05"/>
+   </geometry>
+  </collision>
+  <visual>
+   <origin xyz="0 0 0" rpy="0 0.349066 0"/>
+   <geometry>
+    <box size="0.1 0.2 0.05"/>
+   </geometry>
+  </visual>
+  <inertial>
+   <mass value="1e-5"/>
+   <origin xyz="0 0 0" rpy="0 0 0"/>
+   <inertia ixx="1e-6" ixy="0" ixz="0"
+            iyy="1e-6" iyz="0" izz="1e-6"/>
+  </inertial>
+ </link>
+
+ <joint name="kinect_joint" type="fixed">
+  <axis xyz="0 1 0"/>
+  <origin xyz="0.5 0.2 0.64" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="kinect_link"/>
+ </joint>
+
+ <link name="blackfly_mount_link">
+  <collision>
+   <origin xyz="0 0 0" rpy="0 0 0"/>
+   <geometry>
+    <box size="0.1 0.1 0.12"/>
+   </geometry>
+  </collision>
+  <visual>
+   <origin xyz="0 0 0" rpy="0 0 0"/>
+   <geometry>
+    <box size="0.1 0.1 0.1"/>
+   </geometry>
+  </visual>
+  <inertial>
+   <mass value="1e-5"/>
+   <origin xyz="0 0 0" rpy="0 0 0"/>
+   <inertia ixx="1e-6" ixy="0" ixz="0"
+            iyy="1e-6" iyz="0" izz="1e-6"/>
+  </inertial>
+ </link>
+
+ <joint name="blackfly_mount_joint" type="fixed">
+  <axis xyz="0 1 0"/>
+  <origin xyz="0 0 0.8" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="blackfly_mount_link"/>
+ </joint>
+
+ <link name="imu_link">
+  <inertial>
+   <mass value="0.001"/>
+   <origin rpy="0 0 0" xyz="0 0 0"/>
+   <inertia ixx="0.0001" ixy="0" ixz="0" iyy="0.000001" iyz="0" izz="0.0001"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <geometry>
+      <box size="0.001 0.001 0.001"/>
+    </geometry>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <geometry>
+      <box size=".001 .001 .001"/>
+    </geometry>
+  </collision>
+ </link>
+
+ <joint name="imu_joint" type="fixed">
+  <axis xyz="1 0 0"/>
+  <origin xyz="0 0 0.12" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="imu_link"/>
+ </joint>
+
+<!--
+ <link name="left_middle_back_upper_parallelogram" >
+  <visual>
+  <origin rpy="0 0 0" xyz="0 -0.2 0"/>
+   <geometry>
+    <mesh filename="package://new_robot/meshes/preliminary_parallelogram_long.STL" scale="0.001 0.001 0.001"/> 
+   </geometry>
+   <material name="">
+    <color rgba="0.898039215686275 0.917647058823529 0.929411764705882 1"/>
+   </material>
+  </visual>
+  <collision>
+   <origin rpy="0 0 0" xyz="0 0 0"/>
+	<geometry>
+     <mesh filename="package://new_robot/meshes/preliminary_parallelogram_long.STL" scale="0.001 0.001 0.001" />
+	</geometry>
+  </collision>
+  <inertial>
+   <origin rpy="0 0 0" xyz="0 0 0"/>
+   <mass value="0.1"/>
+   <inertia ixx="0.015" iyy="0.0375" izz="0.0375"
+   			ixy="0" ixz="0" iyz="0"/>
+   </inertial>
+  </link>
+
+ <joint name="left_middle_back_upper_parallelogram_joint" type="revolute">
+  <axis xyz="0 0 1"/>
+  <limit effort="1000" lower="-1.047197551" upper="1.047197551" velocity="0.4" />
+  <origin xyz="0 0 -0.01" rpy="3.14159265359 3.14159265359 1.570796327" /> 
+  <parent link="back_left_bolt"/>
+  <child link="left_middle_back_upper_parallelogram"/>
+ </joint>
+
+ <link name="right_middle_back_upper_parallelogram" >
+  <visual>
+  <origin rpy="0 0 0" xyz="0 0 0"/>
+   <geometry>
+    <mesh filename="package://new_robot/meshes/preliminary_parallelogram_long.STL" scale="0.001 0.001 0.001"/> 
+   </geometry>
+   <material name="">
+    <color rgba="0.898039215686275 0.917647058823529 0.929411764705882 1"/>
+   </material>
+  </visual>
+  <collision>
+   <origin rpy="0 0 0" xyz="0 0 0"/>
+	<geometry>
+     <mesh filename="package://new_robot/meshes/preliminary_parallelogram_long.STL" scale="0.001 0.001 0.001" />
+	</geometry>
+  </collision>
+  <inertial>
+   <origin rpy="0 0 0" xyz="0 0 0"/>
+   <mass value="1.0"/>
+   <inertia ixx="0.015" iyy="0.0375" izz="0.0375"
+   			ixy="0" ixz="0" iyz="0"/>
+   </inertial>
+  </link>
+
+ <joint name="right_middle_back_upper_parallelogram_joint" type="revolute">
+  <axis xyz="0 0 1"/>
+  <limit effort="1000" lower="-1.047197551" upper="1.047197551" velocity="0.4" />
+  <origin xyz="0 0.3 -0.01" rpy="0 0 0" /> 
+  <parent link="middle_right_wheel_link1"/>
+  <child link="right_middle_back_upper_parallelogram"/>
+ </joint>
+
+ <link name="left_middle_back_lower_parallelogram" >
+  <visual>
+  <origin rpy="0 0 0" xyz="0 0 0"/>
+   <geometry>
+    <mesh filename="package://new_robot/meshes/preliminary_parallelogram_long.STL" scale="0.001 0.001 0.001"/> 
+   </geometry>
+   <material name="">
+    <color rgba="0.898039215686275 0.917647058823529 0.929411764705882 1"/>
+   </material>
+  </visual>
+  <collision>
+   <origin rpy="0 0 0" xyz="0 0 0"/>
+	<geometry>
+     <mesh filename="package://new_robot/meshes/preliminary_parallelogram_long.STL" scale="0.001 0.001 0.001" />
+	</geometry>
+  </collision>
+  <inertial>
+   <origin rpy="0 0 0" xyz="0 0 0"/>
+   <mass value="0.1"/>
+   <inertia ixx="0.015" iyy="0.0375" izz="0.0375"
+   			ixy="0" ixz="0" iyz="0"/>
+   </inertial>
+  </link>
+
+ <joint name="left_middle_back_lower_parallelogram_joint" type="fixed">
+  <axis xyz="0 0 1"/>
+  <origin xyz="0 -0.07 0.0" rpy="0 0 0"/>
+  <parent link="left_middle_back_upper_parallelogram"/>
+  <child link="left_middle_back_lower_parallelogram"/>
+ </joint>
+
+ <link name="right_middle_back_lower_parallelogram" >
+  <visual>
+  <origin rpy="0 0 0" xyz="0 0 0"/>
+   <geometry>
+    <mesh filename="package://new_robot/meshes/preliminary_parallelogram_long.STL" scale="0.001 0.001 0.001"/> 
+   </geometry>
+   <material name="">
+    <color rgba="0.898039215686275 0.917647058823529 0.929411764705882 1"/>
+   </material>
+  </visual>
+  <collision>
+   <origin rpy="0 0 0" xyz="0 0 0"/>
+	<geometry>
+     <mesh filename="package://new_robot/meshes/preliminary_parallelogram_long.STL" scale="0.001 0.001 0.001" />
+	</geometry>
+  </collision>
+  <inertial>
+   <origin rpy="0 0 0" xyz="0 0 0"/>
+   <mass value="1.0"/>
+   <inertia ixx="0.015" iyy="0.0375" izz="0.0375"
+   			ixy="0" ixz="0" iyz="0"/>
+   </inertial>
+  </link>
+
+ <joint name="right_middle_back_lower_parallelogram_joint" type="fixed">
+  <axis xyz="0 0 1"/>
+  <origin xyz="0 -0.05 0" rpy="0 0 0"/>
+  <parent link="right_middle_back_upper_parallelogram"/>
+  <child link="right_middle_back_lower_parallelogram"/>
+ </joint>
+
+ <link name="left_middle_front_upper_parallelogram" >
+  <visual>
+  <origin rpy="0 0 0" xyz="0 0 0"/>
+   <geometry>
+    <mesh filename="package://new_robot/meshes/preliminary_parallelogram_long.STL" scale="0.001 0.001 0.001"/> 
+   </geometry>
+   <material name="">
+    <color rgba="0.898039215686275 0.917647058823529 0.929411764705882 1"/>
+   </material>
+  </visual>
+  <collision>
+   <origin rpy="0 0 0" xyz="0 0 0"/>
+	<geometry>
+     <mesh filename="package://new_robot/meshes/preliminary_parallelogram_long.STL" scale="0.001 0.001 0.001" />
+	</geometry>
+  </collision>
+  <inertial>
+   <origin rpy="0 0 0" xyz="0 0 0"/>
+   <mass value="1.0"/>
+   <inertia ixx="0.015" iyy="0.0375" izz="0.0375"
+   			ixy="0" ixz="0" iyz="0"/>
+   </inertial>
+  </link>
+
+ <joint name="left_middle_front_upper_parallelogram_joint" type="revolute">
+  <axis xyz="0 0 1"/>
+  <limit effort="1000" lower="-1.047197551" upper="1.047197551" velocity="0.4" />
+  <origin xyz="0 0.3 0" rpy="0 3.141592654 0"/>
+  <parent link="middle_left_wheel_link1"/>
+  <child link="left_middle_front_upper_parallelogram"/>
+ </joint>
+
+ <link name="left_middle_front_lower_parallelogram" >
+  <visual>
+  <origin rpy="0 0 0" xyz="0 0 0"/>
+   <geometry>
+    <mesh filename="package://new_robot/meshes/preliminary_parallelogram_long.STL" scale="0.001 0.001 0.001"/> 
+   </geometry>
+   <material name="">
+    <color rgba="0.898039215686275 0.917647058823529 0.929411764705882 1"/>
+   </material>
+  </visual>
+  <collision>
+   <origin rpy="0 0 0" xyz="0 0 0"/>
+	<geometry>
+     <mesh filename="package://new_robot/meshes/preliminary_parallelogram_long.STL" scale="0.001 0.001 0.001" />
+	</geometry>
+  </collision>
+  <inertial>
+   <origin rpy="0 0 0" xyz="0 0 0"/>
+   <mass value="1.0"/>
+   <inertia ixx="0.015" iyy="0.0375" izz="0.0375"
+   			ixy="0" ixz="0" iyz="0"/>
+   </inertial>
+  </link>
+ 
+ <joint name="left_middle_front_lower_parallelogram_joint" type="fixed">
+  <axis xyz="0 0 1"/>
+  <limit effort="1000" lower="-1.047197551" upper="1.047197551" velocity="0.4" />
+  <origin xyz="0 -0.05 0" rpy="0 0 0"/>
+  <parent link="left_middle_front_upper_parallelogram"/>
+  <child link="left_middle_front_lower_parallelogram"/>
+ </joint>
+
+ <link name="right_middle_front_upper_parallelogram" >
+  <visual>
+  <origin rpy="0 0 0" xyz="0 0 0"/>
+   <geometry>
+    <mesh filename="package://new_robot/meshes/preliminary_parallelogram_long.STL" scale="0.001 0.001 0.001"/> 
+   </geometry>
+   <material name="">
+    <color rgba="0.898039215686275 0.917647058823529 0.929411764705882 1"/>
+   </material>
+  </visual>
+  <collision>
+   <origin rpy="0 0 0" xyz="0 0 0"/>
+	<geometry>
+     <mesh filename="package://new_robot/meshes/preliminary_parallelogram_long.STL" scale="0.001 0.001 0.001" />
+	</geometry>
+  </collision>
+  <inertial>
+   <origin rpy="0 0 0" xyz="0 0 0"/>
+   <mass value="1.0"/>
+   <inertia ixx="0.015" iyy="0.0375" izz="0.0375"
+   			ixy="0" ixz="0" iyz="0"/>
+   </inertial>
+  </link>
+
+ <joint name="right_middle_front_upper_parallelogram_joint" type="revolute">
+  <axis xyz="0 0 1"/>
+  <limit effort="1000" lower="-1.047197551" upper="1.047197551" velocity="0.4" />
+  <origin xyz="0 0.3 0" rpy="0 3.141592654 0"/>
+  <parent link="middle_right_wheel_link1"/>
+  <child link="right_middle_front_upper_parallelogram"/>
+ </joint>
+
+ <link name="right_middle_front_lower_parallelogram" >
+  <visual>
+  <origin rpy="0 0 0" xyz="0 0 0"/>
+   <geometry>
+    <mesh filename="package://new_robot/meshes/preliminary_parallelogram_long.STL" scale="0.001 0.001 0.001"/> 
+   </geometry>
+   <material name="">
+    <color rgba="0.898039215686275 0.917647058823529 0.929411764705882 1"/>
+   </material>
+  </visual>
+  <collision>
+   <origin rpy="0 0 0" xyz="0 0 0"/>
+	<geometry>
+     <mesh filename="package://new_robot/meshes/preliminary_parallelogram_long.STL" scale="0.001 0.001 0.001" />
+	</geometry>
+  </collision>
+  <inertial>
+   <origin rpy="0 0 0" xyz="0 0 0"/>
+   <mass value="1.0"/>
+   <inertia ixx="0.015" iyy="0.0375" izz="0.0375"
+   			ixy="0" ixz="0" iyz="0"/>
+   </inertial>
+  </link>
+
+ <joint name="right_middle_front_lower_parallelogram_joint" type="fixed">
+  <axis xyz="0 0 1"/>
+  <origin xyz="0 -0.05 0" rpy="1.570796327 0 0"/>
+  <parent link="right_middle_front_upper_parallelogram"/>
+  <child link="right_middle_front_lower_parallelogram"/>
+ </joint>
+ --> 
+
+<link name="front_left_bolt">
+  <collision>
+   <geometry>
+	 <cylinder length = "0.05" radius = "0.02" />
+   </geometry>
+  </collision>
+  <inertial>
+   <mass value="0.025"/>
+    <inertia ixx="5.1458e-5" iyy="5.1458e-5" izz="6.125e-5"
+   			 ixy="0" ixz="0" iyz="0"/>
+  </inertial>
+ </link>
+
+ <gazebo reference="front_left_bolt" >
+   <material> Gazebo/Grey </material>
+ </gazebo>
+
+ <joint name="front_left_bolt_joint" type="fixed">
+  <axis xyz="0 0 1"/>
+  <parent link="base_link"/>
+  <child link="front_left_bolt"/>
+    <origin rpy="0 1.570796327 1.570796327" xyz="-0.6 0 0.42" />
+ </joint>
+
+ <link name="front_left_wheel_link" >
+  <visual>
+   <geometry>
+    <mesh filename="package://new_robot/meshes/preliminary_middle_wheel_link.STL" scale="0.001 0.001 0.001"/> 
+   </geometry>
+   <material name="">
+    <color rgba="0.898039215686275 0.917647058823529 0.929411764705882 1"/>
+   </material>
+  </visual>
+  <collision>
+	<geometry>
+     <mesh filename="package://new_robot/meshes/preliminary_middle_wheel_link.STL" scale="0.001 0.001 0.001" />
+	</geometry>
+  </collision>
+  <inertial>
+   <origin rpy="0 0 0" xyz="0 0 0"/>
+   <mass value="0.025"/>
+   <inertia ixx="0.015" iyy="0.0375" izz="0.0375"
+   			ixy="0" ixz="0" iyz="0"/>
+   </inertial>
+  </link>
+
+ <joint name="front_left_wheel_link_joint" type="prismatic">
+  <axis xyz="0 1 0"/>
+  <limit effort="10000" lower="-0.2" upper="0.2" velocity="0.8" />
+  <origin rpy="0 3.141592654 1.570796327" xyz="0.3 -0.17 -0.01" />
+  <parent link="front_left_bolt"/>
+  <child link="front_left_wheel_link"/>
+ </joint>
+
+ <link name="front_left_wheel">
+  <visual>
+   <origin xyz="-0.15 -0.18 0.1" rpy="0 1.570796327 0"/>
+	<geometry>
+	 <mesh filename="package://new_robot/meshes/Prototype_Wheel.STL" scale="0.001 0.001 0.001"/>
+	</geometry>
+   <material name="black"/>
+  </visual>
+  <collision>
+	<geometry>
+	 <sphere radius = "0.17" />
+	</geometry>
+  </collision>
+  <inertial>
+   <mass value="0.01"/>
+    <inertia ixx="5.1458e-5" iyy="5.1458e-5" izz="6.125e-5"
+   			 ixy="0" ixz="0" iyz="0"/>
+  </inertial>
+ </link>
+
+ <gazebo reference="front_left_wheel" >
+   <material> Gazebo/Black </material>
+ </gazebo>
+
+ <joint name="front_left_wheel_joint" type="continuous">
+  <axis xyz="0 0 1"/>
+  <parent link="front_left_wheel_link"/>
+  <child link="front_left_wheel"/>
+    <origin rpy="0 0 0" xyz="0 -0.05 0.1"/>
+ </joint>
+
+<link name="front_right_bolt">
+  <collision>
+   <geometry>
+	 <cylinder length = "0.05" radius = "0.02" />
+   </geometry>
+  </collision>
+  <inertial>
+   <mass value="0.025"/>
+    <inertia ixx="5.1458e-5" iyy="5.1458e-5" izz="6.125e-5"
+   			 ixy="0" ixz="0" iyz="0"/>
+  </inertial>
+ </link>
+
+ <gazebo reference="front_right_bolt" >
+   <material> Gazebo/Grey </material>
+ </gazebo>
+
+ <joint name="front_right_bolt_joint" type="fixed">
+  <axis xyz="0 0 1"/>
+  <parent link="base_link"/>
+  <child link="front_right_bolt"/>
+    <origin rpy="0 1.570796327 1.570796327" xyz="-0.6 0.43 0.42" />
+ </joint>
+
+ <link name="front_right_wheel_link" >
+  <visual>
+   <geometry>
+    <mesh filename="package://new_robot/meshes/preliminary_middle_wheel_link.STL" scale="0.001 0.001 0.001"/> 
+   </geometry>
+   <material name="">
+    <color rgba="0.898039215686275 0.917647058823529 0.929411764705882 1"/>
+   </material>
+  </visual>
+  <collision>
+	<geometry>
+     <mesh filename="package://new_robot/meshes/preliminary_middle_wheel_link.STL" scale="0.001 0.001 0.001" />
+	</geometry>
+  </collision>
+  <inertial>
+   <origin rpy="0 0 0" xyz="0 0 0"/>
+   <mass value="0.025"/>
+   <inertia ixx="0.015" iyy="0.0375" izz="0.0375"
+   			ixy="0" ixz="0" iyz="0"/>
+   </inertial>
+  </link>
+
+ <joint name="front_right_wheel_link_joint" type="prismatic">
+  <axis xyz="0 1 0"/>
+  <limit effort="10000" lower="-0.2" upper="0.2" velocity="0.8" />
+  <origin rpy="0 3.141592654 1.570796327" xyz="0.3 -0.17 -0.01" />
+  <parent link="front_right_bolt"/>
+  <child link="front_right_wheel_link"/>
+ </joint>
+
+ <link name="front_right_wheel">
+  <visual>
+   <origin xyz="-0.15 -0.18 0.1" rpy="0 1.570796327 0"/>
+	<geometry>
+	 <mesh filename="package://new_robot/meshes/Prototype_Wheel.STL" scale="0.001 0.001 0.001"/>
+	</geometry>
+   <material name="black"/>
+  </visual>
+  <collision>
+	<geometry>
+	 <sphere radius = "0.17" />
+	</geometry>
+  </collision>
+  <inertial>
+   <mass value="0.01"/>
+    <inertia ixx="5.1458e-5" iyy="5.1458e-5" izz="6.125e-5"
+   			 ixy="0" ixz="0" iyz="0"/>
+  </inertial>
+ </link>
+
+ <gazebo reference="front_right_wheel" >
+   <material> Gazebo/Black </material>
+ </gazebo>
+
+ <joint name="front_right_wheel_joint" type="continuous">
+  <axis xyz="0 0 1"/>
+  <parent link="front_right_wheel_link"/>
+  <child link="front_right_wheel"/>
+    <origin rpy="0 0 0" xyz="0 -0.05 -0.1"/>
+ </joint>
+
+<link name="middle_left_bolt">
+  <collision>
+   <geometry>
+	 <cylinder length = "0.05" radius = "0.02" />
+   </geometry>
+  </collision>
+  <inertial>
+   <mass value="0.025"/>
+    <inertia ixx="5.1458e-5" iyy="5.1458e-5" izz="6.125e-5"
+   			 ixy="0" ixz="0" iyz="0"/>
+  </inertial>
+ </link>
+
+ <gazebo reference="middle_left_bolt" >
+   <material> Gazebo/Grey </material>
+ </gazebo>
+
+ <joint name="middle_left_bolt_joint" type="fixed">
+  <axis xyz="0 0 1"/>
+  <parent link="base_link"/>
+  <child link="middle_left_bolt"/>
+    <origin rpy="0 1.570796327 1.570796327" xyz="0 0 0.42" />
+ </joint>
+
+ <link name="middle_left_wheel_link" >
+  <visual>
+   <geometry>
+    <mesh filename="package://new_robot/meshes/preliminary_middle_wheel_link.STL" scale="0.001 0.001 0.001"/> 
+   </geometry>
+   <material name="">
+    <color rgba="0.898039215686275 0.917647058823529 0.929411764705882 1"/>
+   </material>
+  </visual>
+  <collision>
+	<geometry>
+     <mesh filename="package://new_robot/meshes/preliminary_middle_wheel_link.STL" scale="0.001 0.001 0.001" />
+	</geometry>
+  </collision>
+  <inertial>
+   <origin rpy="0 0 0" xyz="0 0 0"/>
+   <mass value="0.025"/>
+   <inertia ixx="0.015" iyy="0.0375" izz="0.0375"
+   			ixy="0" ixz="0" iyz="0"/>
+   </inertial>
+  </link>
+
+ <joint name="middle_left_wheel_link_joint" type="prismatic">
+  <axis xyz="0 1 0"/>
+  <limit effort="10000" lower="-0.2" upper="0.2" velocity="0.8" />
+  <origin rpy="0 3.141592654 1.570796327" xyz="0.3 0 -0.03" />
+  <parent link="middle_left_bolt"/>
+  <child link="middle_left_wheel_link"/>
+ </joint>
+
+ <gazebo reference="middle_left_wheel" >
+   <material> Gazebo/Black </material>
+ </gazebo>
+
+ <link name="middle_left_wheel">
+  <visual>
+   <origin xyz="-0.15 -0.18 0.1" rpy="0 1.570796327 0"/>
+	<geometry>
+	 <mesh filename="package://new_robot/meshes/Prototype_Wheel.STL" scale="0.001 0.001 0.001"/>
+   </geometry>
+   <material name="black"/>
+  </visual>
+  <collision>
+   <geometry>
+	 <sphere radius = "0.17" />
+   </geometry>
+  </collision>
+  <inertial>
+   <mass value="0.01"/>
+    <inertia ixx="5.1458e-5" iyy="5.1458e-5" izz="6.125e-5"
+   			 ixy="0" ixz="0" iyz="0"/>
+  </inertial>
+ </link>
+
+ <gazebo reference="middle_left_wheel" >
+   <material> Gazebo/Black </material>
+ </gazebo>
+
+ <joint name="middle_left_wheel_joint" type="continuous">
+  <axis xyz="0 0 1"/>
+  <parent link="middle_left_wheel_link"/>
+  <child link="middle_left_wheel"/>
+    <origin rpy="0 0 0" xyz="0 -0.05 0.1" />
+ </joint>
+
+<link name="middle_right_bolt">
+  <collision>
+   <geometry>
+	 <cylinder length = "0.05" radius = "0.02" />
+   </geometry>
+  </collision>
+  <inertial>
+   <mass value="0.025"/>
+    <inertia ixx="5.1458e-5" iyy="5.1458e-5" izz="6.125e-5"
+   			 ixy="0" ixz="0" iyz="0"/>
+  </inertial>
+ </link>
+
+ <gazebo reference="middle_right_bolt" >
+   <material> Gazebo/Grey </material>
+ </gazebo>
+
+ <joint name="middle_right_bolt_joint" type="fixed">
+  <axis xyz="0 0 1"/>
+  <parent link="base_link"/>
+  <child link="middle_right_bolt"/>
+    <origin rpy="0 1.570796327 1.570796327" xyz="0 0.43 0.42" />
+ </joint>
+
+ <link name="middle_right_wheel_link" >
+  <visual>
+   <geometry>
+    <mesh filename="package://new_robot/meshes/preliminary_middle_wheel_link.STL" scale="0.001 0.001 0.001"/> 
+   </geometry>
+   <material name="">
+    <color rgba="0.898039215686275 0.917647058823529 0.929411764705882 1"/>
+   </material>
+  </visual>
+  <collision>
+	<geometry>
+     <mesh filename="package://new_robot/meshes/preliminary_middle_wheel_link.STL" scale="0.001 0.001 0.001" />
+	</geometry>
+  </collision>
+  <inertial>
+   <origin rpy="0 0 0" xyz="0 0 0"/>
+   <mass value="0.025"/>
+   <inertia ixx="0.015" iyy="0.0375" izz="0.0375"
+   			ixy="0" ixz="0" iyz="0"/>
+   </inertial>
+  </link>
+
+ <joint name="middle_right_wheel_link_joint" type="prismatic">
+  <axis xyz="0 1 0"/>
+  <limit effort="10000" lower="-0.2" upper="0.2" velocity="0.8" />
+  <origin rpy="0 3.141592654 1.570796327" xyz="0.3 0 0.05" />
+  <parent link="middle_right_bolt"/>
+  <child link="middle_right_wheel_link"/>
+ </joint>
+
+ <link name="middle_right_wheel">
+  <visual>
+   <origin xyz="-0.15 -0.18 0.1" rpy="0 1.570796327 0"/>
+	<geometry>
+	 <mesh filename="package://new_robot/meshes/Prototype_Wheel.STL" scale="0.001 0.001 0.001"/>
+   </geometry>
+   <material name="black"/>
+  </visual>
+  <collision>
+   <geometry>
+	 <sphere radius = "0.17" />
+   </geometry>
+  </collision>
+  <inertial>
+   <mass value="0.01"/>
+    <inertia ixx="5.1458e-5" iyy="5.1458e-5" izz="6.125e-5"
+   			 ixy="0" ixz="0" iyz="0"/>
+  </inertial>
+ </link>
+
+ <gazebo reference="middle_right_wheel" >
+   <material> Gazebo/Black </material>
+ </gazebo>
+
+ <joint name="middle_right_wheel_joint" type="continuous">
+  <axis xyz="0 0 1"/>
+  <parent link="middle_right_wheel_link"/>
+  <child link="middle_right_wheel"/>
+    <origin rpy="0 0 0" xyz="0 -0.05 -0.1" />
+ </joint>
+
+ <link name="back_left_bolt">
+  <collision>
+   <geometry>
+	 <cylinder length = "0.05" radius = "0.02" />
+   </geometry>
+  </collision>
+  <inertial>
+   <mass value="0.025"/>
+    <inertia ixx="5.1458e-5" iyy="5.1458e-5" izz="6.125e-5"
+   			 ixy="0" ixz="0" iyz="0"/>
+  </inertial>
+ </link>
+
+ <gazebo reference="back_left_bolt" >
+   <material> Gazebo/Grey </material>
+ </gazebo>
+
+ <joint name="back_left_bolt_joint" type="fixed">
+  <axis xyz="0 0 1"/>
+  <parent link="base_link"/>
+  <child link="back_left_bolt"/>
+    <origin rpy="0 1.570796327 1.570796327" xyz="0.5 0 0.42" />
+ </joint>
+
+ <link name="back_left_wheel_link" >
+  <visual>
+   <geometry>
+    <mesh filename="package://new_robot/meshes/preliminary_middle_wheel_link.STL" scale="0.001 0.001 0.001"/> 
+   </geometry>
+   <material name="">
+    <color rgba="0.898039215686275 0.917647058823529 0.929411764705882 1"/>
+   </material>
+  </visual>
+  <collision>
+	<geometry>
+     <mesh filename="package://new_robot/meshes/preliminary_middle_wheel_link.STL" scale="0.001 0.001 0.001" />
+	</geometry>
+  </collision>
+  <inertial>
+   <origin rpy="0 0 0" xyz="0 0 0"/>
+   <mass value="0.025"/>
+   <inertia ixx="0.015" iyy="0.0375" izz="0.0375"
+   			ixy="0" ixz="0" iyz="0"/>
+   </inertial>
+  </link>
+
+ <joint name="back_left_wheel_link_joint" type="prismatic">
+  <axis xyz="0 1 0"/>
+  <limit effort="10000" lower="-0.2" upper="0.2" velocity="0.8" />
+  <origin rpy="0 3.141592654 1.570796327" xyz="0.3 0.05 -0.03" />
+  <parent link="back_left_bolt"/>
+  <child link="back_left_wheel_link"/>
+ </joint>
+
+ <link name="back_left_wheel">
+  <visual>
+   <origin xyz="-0.15 -0.18 0.1" rpy="0 1.570796327 0"/>
+	<geometry>
+	 <mesh filename="package://new_robot/meshes/Prototype_Wheel.STL" scale="0.001 0.001 0.001"/>
+	</geometry>
+   <material name="black"/>
+  </visual>
+  <collision>
+    <geometry>
+	 <sphere radius = "0.17" />
+	</geometry>
+  </collision>
+  <inertial>
+   <mass value="0.01"/>
+    <inertia ixx="5.1458e-5" iyy="5.1458e-5" izz="6.125e-5"
+   			 ixy="0" ixz="0" iyz="0"/>
+  </inertial>
+ </link>
+
+ <gazebo reference="back_left_wheel" >
+   <material> Gazebo/Black </material>
+ </gazebo>
+
+ <joint name="back_left_wheel_joint" type="continuous">
+  <axis xyz="0 0 1"/>
+  <parent link="back_left_wheel_link"/>
+  <child link="back_left_wheel"/>
+    <origin rpy="0 0 0" xyz="0 -0.05 0.1"/>
+ </joint>
+
+<link name="back_right_bolt">
+  <collision>
+   <geometry>
+	 <cylinder length = "0.05" radius = "0.02" />
+   </geometry>
+  </collision>
+  <inertial>
+   <mass value="0.025"/>
+    <inertia ixx="5.1458e-5" iyy="5.1458e-5" izz="6.125e-5"
+   			 ixy="0" ixz="0" iyz="0"/>
+  </inertial>
+ </link>
+
+ <gazebo reference="back_right_bolt" >
+   <material> Gazebo/Grey </material>
+ </gazebo>
+
+ <joint name="back_right_bolt_joint" type="fixed">
+  <axis xyz="0 0 1"/>
+  <parent link="base_link"/>
+  <child link="back_right_bolt"/>
+    <origin rpy="0 1.570796327 1.570796327" xyz="0.5 0.43 0.42" />
+ </joint>
+
+ <link name="back_right_wheel_link" >
+  <visual>
+   <geometry>
+    <mesh filename="package://new_robot/meshes/preliminary_middle_wheel_link.STL" scale="0.001 0.001 0.001"/> 
+   </geometry>
+   <material name="">
+    <color rgba="0.898039215686275 0.917647058823529 0.929411764705882 1"/>
+   </material>
+  </visual>
+  <collision>
+	<geometry>
+     <mesh filename="package://new_robot/meshes/preliminary_middle_wheel_link.STL" scale="0.001 0.001 0.001" />
+	</geometry>
+  </collision>
+  <inertial>
+   <origin rpy="0 0 0" xyz="0 0 0"/>
+   <mass value="0.025"/>
+   <inertia ixx="0.015" iyy="0.0375" izz="0.0375"
+   			ixy="0" ixz="0" iyz="0"/>
+   </inertial>
+  </link>
+
+ <joint name="back_right_wheel_link_joint" type="prismatic">
+  <axis xyz="0 1 0"/>
+  <limit effort="10000" lower="-0.2" upper="0.2" velocity="0.8" />
+  <origin rpy="0 3.141592654 1.570796327" xyz="0.3 0.05 -0.01" />
+  <parent link="back_right_bolt"/>
+  <child link="back_right_wheel_link"/>
+ </joint>
+
+ <link name="back_right_wheel">
+  <visual>
+   <origin xyz="-0.15 -0.18 0.1" rpy="0 1.570796327 0"/>
+	<geometry>
+	 <mesh filename="package://new_robot/meshes/Prototype_Wheel.STL" scale="0.001 0.001 0.001"/>
+	</geometry>
+   <material name="black"/>
+  </visual>
+  <collision>
+    <geometry>
+	 <sphere radius = "0.17" />
+	</geometry>
+  </collision>
+  <inertial>
+   <mass value="0.01"/>
+    <inertia ixx="5.1458e-5" iyy="5.1458e-5" izz="6.125e-5"
+   			 ixy="0" ixz="0" iyz="0"/>
+  </inertial>
+ </link>
+
+ <gazebo reference="back_right_wheel" >
+   <material> Gazebo/Black </material>
+ </gazebo>
+
+ <joint name="back_right_wheel_joint" type="continuous">
+  <axis xyz="0 0 1"/>
+  <parent link="back_right_wheel_link"/>
+  <child link="back_right_wheel"/>
+    <origin rpy="0 0 0" xyz="0 -0.05 -0.1"/>
+ </joint>
+
+ <link name="actuator1">
+  <visual>
+    <geometry>
+     <cylinder length="0.22" radius="0.015"/>
+    </geometry>
+   <material name="gray"/>
+  </visual>
+  <collision>
+    <geometry>
+     <cylinder length="0.22" radius="0.015"/>
+    </geometry>
+   <material name="gray"/>
+  </collision>
+  <inertial>
+   <mass value="0.01"/>
+    <inertia ixx="5.1458e-5" iyy="5.1458e-5" izz="6.125e-5"
+		 ixy="0" ixz="0" iyz="0"/>
+  </inertial>
+ </link>
+
+ <joint name="actuator1_joint" type="prismatic">
+  <limit effort="10000" lower="-0.2" upper="0.2" velocity="0.8" />
+  <axis xyz="0 0 1"/>
+  <parent link="base_link"/>
+  <child link="actuator1"/>
+  	<origin rpy="0 0 0" xyz="0 0.4 0.715"/>
+ </joint>
+
+ <transmission name="tran1">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="actuator1_joint">
+   <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="digging_actuator1">
+   <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+   <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+ </transmission>
+  
+ <gazebo>
+  <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+   <robotNamespace>/eugene</robotNamespace>
+  </plugin>
+
+  <plugin name="hector_6w_diff_controller" filename="libdiffdrive_plugin_6w.so">
+   <alwaysOn> 1 </alwaysOn>
+   <updateRate> 20.0 </updateRate>
+   <wheelSeparation> 0.4 </wheelSeparation>
+   <wheelDiameter> 0.34 </wheelDiameter>
+   <odometryTopic>odom</odometryTopic>
+   <odometryFrame>odom</odometryFrame>
+   <odometrySource>world</odometrySource>
+   <publishOdometryMsg> 1 </publishOdometryMsg>
+   <publishOdometryTf>1</publishOdometryTf>
+   <torque> 0.5 </torque>
+   <frontLeftJoint> front_left_wheel_joint </frontLeftJoint>
+   <frontRightJoint> front_right_wheel_joint </frontRightJoint>
+   <midLeftJoint> middle_left_wheel_joint </midLeftJoint>
+   <midRightJoint> middle_right_wheel_joint </midRightJoint>
+   <rearLeftJoint> back_left_wheel_joint </rearLeftJoint>
+   <rearRightJoint> back_right_wheel_joint </rearRightJoint>
+  </plugin>
+ </gazebo>
+
+ <!-- camera -->
+  <gazebo reference="kinect_link">
+    <sensor name="crab_eyes" type="depth">
+    <camera>
+     <horizontal_fov>1.5</horizontal_fov>
+      <image>
+        <width>1024</width>
+        <height>800</height>
+        <format>R8G8B8</format>
+      </image>
+      <clip>
+        <near>.1</near>
+        <far>20</far>
+      </clip>
+    </camera>
+
+   <plugin name="camera_controller" filename="libgazebo_ros_openni_kinect.so">
+             <alwaysOn>true</alwaysOn>
+                <updateRate>20.0</updateRate>
+				<frequency>20.0</frequency>
+                <cameraName>camera</cameraName>
+                <frameName>kinect_link</frameName>                   
+            <imageTopicName>rgb/image_raw</imageTopicName>
+            <depthImageTopicName>depth/image_raw</depthImageTopicName>
+            <pointCloudTopicName>depth/points</pointCloudTopicName>
+            <cameraInfoTopicName>rgb/camera_info</cameraInfoTopicName>              
+            <depthImageCameraInfoTopicName>depth/camera_info</depthImageCameraInfoTopicName>            
+            <pointCloudCutoff>0.4</pointCloudCutoff>                
+                <hackBaseline>0.07</hackBaseline>
+                <distortionK1>0.0</distortionK1>
+                <distortionK2>0.0</distortionK2>
+                <distortionK3>0.0</distortionK3>
+                <distortionT1>0.0</distortionT1>
+                <distortionT2>0.0</distortionT2>
+            <CxPrime>0.0</CxPrime>
+            <Cx>0.0</Cx>
+            <Cy>0.0</Cy>
+            <focalLength>0.0</focalLength>
+            </plugin>
+    </sensor>
+  </gazebo>
+
+ <gazebo reference="blackfly_mount_link">
+   <sensor name="blackfly_camera" type="camera">
+    <camera>
+	<horizontal_fov>1.2217</horizontal_fov>
+      <image>
+        <width>1624</width>
+        <height>1224</height>
+        <format>R8G8B8</format>
+      </image>
+      <clip>
+        <near>0.01</near>
+        <far>300</far>
+      </clip>
+	  <noise>
+	   <type>gaussian</type>
+	   <mean>0.0</mean>
+	   <stddev>0.000</stddev>
+	  </noise>
+   </camera>
+   
+   <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+	 <alwaysOn>true</alwaysOn>
+		<updateRate>20.0</updateRate>
+		<frequency>20.0</frequency>
+		<cameraName>blackfly</cameraName>
+		<frameName>blackfly_mount_link</frameName>                   
+	<imageTopicName>image_raw</imageTopicName>
+	<cameraInfoTopicName>camera_info</cameraInfoTopicName>              
+		<hackBaseline>0.07</hackBaseline>
+		<distortionK1>0.0</distortionK1>
+		<distortionK2>0.0</distortionK2>
+		<distortionK3>0.0</distortionK3>
+		<distortionT1>0.0</distortionT1>
+		<distortionT2>0.0</distortionT2>
+	</plugin>
+   </sensor>
+  </gazebo>
+
+ <gazebo>
+   <plugin name="imu" filename="libhector_gazebo_ros_imu.so">
+    <serviceName>/imu/calibrate</serviceName>
+    <updateRate>200.0</updateRate>
+    <bodyName>imu_link</bodyName>
+    <frameId>imu_link</frameId>
+    <topicName>imu</topicName>
+    <rpyOffset>0 0 0</rpyOffset>
+    <xyzOffset>0 0 0</xyzOffset>
+    <gaussianNoise>0.00000001</gaussianNoise>
+    <accelDrift>0.00000001 0.00000001 0.00000001</accelDrift>
+    <accelDriftFrequency>0.00000001 0.00000001 0.00000001</accelDriftFrequency>
+    <accelGaussianNoise>0.00000001 0.00000001 0.00000001</accelGaussianNoise>
+    <rateDrift>0.0 0.0 0.0</rateDrift>
+    <rateDriftFrequency>0.0 0.0 0.0</rateDriftFrequency>
+    <rateGaussianNoise>0.0 0.0 0.0</rateGaussianNoise>
+    <headingDrift>0.0 0.0 0.0</headingDrift>
+    <headingDriftFrequency>0.0 0.0 0.0</headingDriftFrequency>
+    <headingGaussianNoise>0.0 0.0 0.0</headingGaussianNoise>
+  </plugin>
+ </gazebo>
+
+</robot>

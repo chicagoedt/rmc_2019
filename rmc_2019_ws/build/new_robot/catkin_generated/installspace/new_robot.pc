@@ -1,0 +1,8 @@
+prefix=/home/chel/rmc_2019/rmc_2019_ws/install
+
+Name: new_robot
+Description: Description of new_robot
+Version: 0.0.0
+Cflags: -I/home/chel/rmc_2019/rmc_2019_ws/install/include
+Libs: -L/home/chel/rmc_2019/rmc_2019_ws/install/lib 
+Requires: 

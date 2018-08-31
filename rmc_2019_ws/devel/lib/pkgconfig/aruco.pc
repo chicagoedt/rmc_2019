@@ -1,0 +1,8 @@
+prefix=/home/chel/rmc_2019/rmc_2019_ws/devel
+
+Name: aruco
+Description: Description of aruco
+Version: 0.2.3
+Cflags: -I/home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco/include
+Libs: -L/home/chel/rmc_2019/rmc_2019_ws/devel/lib -laruco
+Requires: 
