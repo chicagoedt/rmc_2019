@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/sensor_msgs_test_image_encodings.dir/test_image_encodings.cpp.o"
-  "/home/chel/new_rmc_ws/devel/lib/sensor_msgs/sensor_msgs_test_image_encodings.pdb"
-  "/home/chel/new_rmc_ws/devel/lib/sensor_msgs/sensor_msgs_test_image_encodings"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/lib/sensor_msgs/sensor_msgs_test_image_encodings.pdb"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/lib/sensor_msgs/sensor_msgs_test_image_encodings"
 )
 
 # Per-language clean rules from dependency scanning.

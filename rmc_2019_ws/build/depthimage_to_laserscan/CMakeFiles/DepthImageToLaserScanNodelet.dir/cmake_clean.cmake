@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/DepthImageToLaserScanNodelet.dir/src/DepthImageToLaserScanNodelet.cpp.o"
-  "/home/chel/new_rmc_ws/devel/lib/libDepthImageToLaserScanNodelet.pdb"
-  "/home/chel/new_rmc_ws/devel/lib/libDepthImageToLaserScanNodelet.so"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libDepthImageToLaserScanNodelet.pdb"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libDepthImageToLaserScanNodelet.so"
 )
 
 # Per-language clean rules from dependency scanning.

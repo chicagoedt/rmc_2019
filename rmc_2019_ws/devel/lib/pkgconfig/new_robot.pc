@@ -3,6 +3,6 @@ prefix=/home/chel/rmc_2019/rmc_2019_ws/devel
 Name: new_robot
 Description: Description of new_robot
 Version: 0.0.0
-Cflags: -I/home/chel/rmc_2019/rmc_2019_ws/src/new_robot/include
+Cflags: -I/home/chel/rmc_2019/rmc_2019_ws/devel/include -I/home/chel/rmc_2019/rmc_2019_ws/src/new_robot/include
 Libs: -L/home/chel/rmc_2019/rmc_2019_ws/devel/lib 
 Requires: 

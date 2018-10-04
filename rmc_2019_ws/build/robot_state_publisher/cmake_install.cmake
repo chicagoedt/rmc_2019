@@ -1,8 +1,8 @@
-# Install script for directory: /home/chel/new_rmc_ws/src/robot_state_publisher
+# Install script for directory: /home/chel/rmc_2019/rmc_2019_ws/src/robot_state_publisher
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/chel/new_rmc_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/chel/rmc_2019/rmc_2019_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,26 +33,26 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/chel/new_rmc_ws/build/robot_state_publisher/catkin_generated/installspace/robot_state_publisher.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/chel/rmc_2019/rmc_2019_ws/build/robot_state_publisher/catkin_generated/installspace/robot_state_publisher.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_state_publisher/cmake" TYPE FILE FILES
-    "/home/chel/new_rmc_ws/build/robot_state_publisher/catkin_generated/installspace/robot_state_publisherConfig.cmake"
-    "/home/chel/new_rmc_ws/build/robot_state_publisher/catkin_generated/installspace/robot_state_publisherConfig-version.cmake"
+    "/home/chel/rmc_2019/rmc_2019_ws/build/robot_state_publisher/catkin_generated/installspace/robot_state_publisherConfig.cmake"
+    "/home/chel/rmc_2019/rmc_2019_ws/build/robot_state_publisher/catkin_generated/installspace/robot_state_publisherConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_state_publisher" TYPE FILE FILES "/home/chel/new_rmc_ws/src/robot_state_publisher/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_state_publisher" TYPE FILE FILES "/home/chel/rmc_2019/rmc_2019_ws/src/robot_state_publisher/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_state_publisher/test" TYPE FILE FILES
-    "/home/chel/new_rmc_ws/src/robot_state_publisher/test/one_link.urdf"
-    "/home/chel/new_rmc_ws/src/robot_state_publisher/test/pr2.urdf"
-    "/home/chel/new_rmc_ws/src/robot_state_publisher/test/two_links_fixed_joint.urdf"
-    "/home/chel/new_rmc_ws/src/robot_state_publisher/test/two_links_moving_joint.urdf"
+    "/home/chel/rmc_2019/rmc_2019_ws/src/robot_state_publisher/test/one_link.urdf"
+    "/home/chel/rmc_2019/rmc_2019_ws/src/robot_state_publisher/test/pr2.urdf"
+    "/home/chel/rmc_2019/rmc_2019_ws/src/robot_state_publisher/test/two_links_fixed_joint.urdf"
+    "/home/chel/rmc_2019/rmc_2019_ws/src/robot_state_publisher/test/two_links_moving_joint.urdf"
     )
 endif()
 
@@ -63,7 +63,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librobot_state_publisher_solver.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/chel/new_rmc_ws/devel/lib/librobot_state_publisher_solver.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/chel/rmc_2019/rmc_2019_ws/devel/lib/librobot_state_publisher_solver.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librobot_state_publisher_solver.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librobot_state_publisher_solver.so")
     file(RPATH_CHANGE
@@ -83,12 +83,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libjoint_state_listener.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/chel/new_rmc_ws/devel/lib/libjoint_state_listener.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libjoint_state_listener.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libjoint_state_listener.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libjoint_state_listener.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libjoint_state_listener.so"
-         OLD_RPATH "/home/chel/new_rmc_ws/devel/lib:/opt/ros/kinetic/lib:"
+         OLD_RPATH "/home/chel/rmc_2019/rmc_2019_ws/devel/lib:/opt/ros/kinetic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libjoint_state_listener.so")
@@ -103,12 +103,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/robot_state_publisher/robot_state_publisher"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/robot_state_publisher" TYPE EXECUTABLE FILES "/home/chel/new_rmc_ws/devel/lib/robot_state_publisher/robot_state_publisher")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/robot_state_publisher" TYPE EXECUTABLE FILES "/home/chel/rmc_2019/rmc_2019_ws/devel/lib/robot_state_publisher/robot_state_publisher")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/robot_state_publisher/robot_state_publisher" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/robot_state_publisher/robot_state_publisher")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/robot_state_publisher/robot_state_publisher"
-         OLD_RPATH "/home/chel/new_rmc_ws/devel/lib:/opt/ros/kinetic/lib:"
+         OLD_RPATH "/home/chel/rmc_2019/rmc_2019_ws/devel/lib:/opt/ros/kinetic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/robot_state_publisher/robot_state_publisher")
@@ -123,12 +123,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/robot_state_publisher/state_publisher"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/robot_state_publisher" TYPE EXECUTABLE FILES "/home/chel/new_rmc_ws/devel/lib/robot_state_publisher/state_publisher")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/robot_state_publisher" TYPE EXECUTABLE FILES "/home/chel/rmc_2019/rmc_2019_ws/devel/lib/robot_state_publisher/state_publisher")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/robot_state_publisher/state_publisher" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/robot_state_publisher/state_publisher")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/robot_state_publisher/state_publisher"
-         OLD_RPATH "/home/chel/new_rmc_ws/devel/lib:/opt/ros/kinetic/lib:"
+         OLD_RPATH "/home/chel/rmc_2019/rmc_2019_ws/devel/lib:/opt/ros/kinetic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/robot_state_publisher/state_publisher")
@@ -137,6 +137,6 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/robot_state_publisher" TYPE DIRECTORY FILES "/home/chel/new_rmc_ws/src/robot_state_publisher/include/robot_state_publisher/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/robot_state_publisher" TYPE DIRECTORY FILES "/home/chel/rmc_2019/rmc_2019_ws/src/robot_state_publisher/include/robot_state_publisher/")
 endif()
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/chel/new_rmc_ws/src/joint_state_publisher/joint_state_publisher
+# Install script for directory: /home/chel/rmc_2019/rmc_2019_ws/src/joint_state_publisher/joint_state_publisher
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/chel/new_rmc_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/chel/rmc_2019/rmc_2019_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,21 +33,21 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/chel/new_rmc_ws/build/joint_state_publisher/joint_state_publisher/catkin_generated/installspace/joint_state_publisher.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/chel/rmc_2019/rmc_2019_ws/build/joint_state_publisher/joint_state_publisher/catkin_generated/installspace/joint_state_publisher.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joint_state_publisher/cmake" TYPE FILE FILES
-    "/home/chel/new_rmc_ws/build/joint_state_publisher/joint_state_publisher/catkin_generated/installspace/joint_state_publisherConfig.cmake"
-    "/home/chel/new_rmc_ws/build/joint_state_publisher/joint_state_publisher/catkin_generated/installspace/joint_state_publisherConfig-version.cmake"
+    "/home/chel/rmc_2019/rmc_2019_ws/build/joint_state_publisher/joint_state_publisher/catkin_generated/installspace/joint_state_publisherConfig.cmake"
+    "/home/chel/rmc_2019/rmc_2019_ws/build/joint_state_publisher/joint_state_publisher/catkin_generated/installspace/joint_state_publisherConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joint_state_publisher" TYPE FILE FILES "/home/chel/new_rmc_ws/src/joint_state_publisher/joint_state_publisher/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joint_state_publisher" TYPE FILE FILES "/home/chel/rmc_2019/rmc_2019_ws/src/joint_state_publisher/joint_state_publisher/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/joint_state_publisher" TYPE PROGRAM FILES "/home/chel/new_rmc_ws/src/joint_state_publisher/joint_state_publisher/joint_state_publisher/joint_state_publisher")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/joint_state_publisher" TYPE PROGRAM FILES "/home/chel/rmc_2019/rmc_2019_ws/src/joint_state_publisher/joint_state_publisher/joint_state_publisher/joint_state_publisher")
 endif()
 

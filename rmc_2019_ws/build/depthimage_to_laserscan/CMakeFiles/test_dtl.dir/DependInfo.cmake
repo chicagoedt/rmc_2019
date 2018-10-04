@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/chel/new_rmc_ws/src/depthimage_to_laserscan/test/depthimage_to_laserscan_rostest.cpp" "/home/chel/new_rmc_ws/build/depthimage_to_laserscan/CMakeFiles/test_dtl.dir/test/depthimage_to_laserscan_rostest.cpp.o"
+  "/home/chel/rmc_2019/rmc_2019_ws/src/depthimage_to_laserscan/test/depthimage_to_laserscan_rostest.cpp" "/home/chel/rmc_2019/rmc_2019_ws/build/depthimage_to_laserscan/CMakeFiles/test_dtl.dir/test/depthimage_to_laserscan_rostest.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,9 +17,9 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/chel/new_rmc_ws/devel/include"
-  "/home/chel/new_rmc_ws/src/depthimage_to_laserscan/include"
-  "/home/chel/new_rmc_ws/src/common_msgs/sensor_msgs/include"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/include"
+  "/home/chel/rmc_2019/rmc_2019_ws/src/depthimage_to_laserscan/include"
+  "/home/chel/rmc_2019/rmc_2019_ws/src/common_msgs/sensor_msgs/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/include/opencv-3.3.1-dev"
   "/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv"

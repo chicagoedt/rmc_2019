@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/chel/new_rmc_ws/devel/include/aruco_msgs/Marker.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/aruco_msgs/Marker.h
 string
 -
 vector
@@ -26,7 +26,7 @@ std_msgs/Header.h
 geometry_msgs/PoseWithCovariance.h
 -
 
-/home/chel/new_rmc_ws/devel/include/aruco_msgs/MarkerArray.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/aruco_msgs/MarkerArray.h
 string
 -
 vector
@@ -46,7 +46,7 @@ std_msgs/Header.h
 aruco_msgs/Marker.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/Point.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/Point.h
 string
 -
 vector
@@ -62,7 +62,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/Pose.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/Pose.h
 string
 -
 vector
@@ -82,7 +82,7 @@ geometry_msgs/Point.h
 geometry_msgs/Quaternion.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/PoseStamped.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/PoseStamped.h
 string
 -
 vector
@@ -102,7 +102,7 @@ std_msgs/Header.h
 geometry_msgs/Pose.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/PoseWithCovariance.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/PoseWithCovariance.h
 string
 -
 vector
@@ -120,7 +120,7 @@ ros/message_operations.h
 geometry_msgs/Pose.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/PoseWithCovarianceStamped.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/PoseWithCovarianceStamped.h
 string
 -
 vector
@@ -140,7 +140,7 @@ std_msgs/Header.h
 geometry_msgs/PoseWithCovariance.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/Quaternion.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/Quaternion.h
 string
 -
 vector
@@ -156,7 +156,23 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/chel/new_rmc_ws/src/new_robot/include/aruco_localize.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/new_robot/Docking.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+
+/home/chel/rmc_2019/rmc_2019_ws/src/new_robot/include/aruco_localize.h
 ros/ros.h
 -
 aruco_msgs/Marker.h
@@ -167,10 +183,12 @@ geometry_msgs/PoseStamped.h
 -
 geometry_msgs/PoseWithCovarianceStamped.h
 -
+new_robot/Docking.h
+-
 
-/home/chel/new_rmc_ws/src/new_robot/src/aruco_localize.cpp
+/home/chel/rmc_2019/rmc_2019_ws/src/new_robot/src/aruco_localize.cpp
 aruco_localize.h
-/home/chel/new_rmc_ws/src/new_robot/src/aruco_localize.h
+/home/chel/rmc_2019/rmc_2019_ws/src/new_robot/src/aruco_localize.h
 rtabmap_ros/ResetPose.h
 -
 

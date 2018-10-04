@@ -6,8 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/aruco.dir/src/aruco/marker.cpp.o"
   "CMakeFiles/aruco.dir/src/aruco/boarddetector.cpp.o"
   "CMakeFiles/aruco.dir/src/aruco/markerdetector.cpp.o"
-  "/home/chel/new_rmc_ws/devel/lib/libaruco.pdb"
-  "/home/chel/new_rmc_ws/devel/lib/libaruco.so"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.pdb"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so"
 )
 
 # Per-language clean rules from dependency scanning.

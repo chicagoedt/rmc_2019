@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/depthimage_to_laserscan_gencfg"
-  "/home/chel/new_rmc_ws/devel/include/depthimage_to_laserscan/DepthConfig.h"
-  "/home/chel/new_rmc_ws/devel/share/depthimage_to_laserscan/docs/DepthConfig.dox"
-  "/home/chel/new_rmc_ws/devel/share/depthimage_to_laserscan/docs/DepthConfig-usage.dox"
-  "/home/chel/new_rmc_ws/devel/lib/python2.7/dist-packages/depthimage_to_laserscan/cfg/DepthConfig.py"
-  "/home/chel/new_rmc_ws/devel/share/depthimage_to_laserscan/docs/DepthConfig.wikidoc"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/include/depthimage_to_laserscan/DepthConfig.h"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/share/depthimage_to_laserscan/docs/DepthConfig.dox"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/share/depthimage_to_laserscan/docs/DepthConfig-usage.dox"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/lib/python2.7/dist-packages/depthimage_to_laserscan/cfg/DepthConfig.py"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/share/depthimage_to_laserscan/docs/DepthConfig.wikidoc"
 )
 
 # Per-language clean rules from dependency scanning.

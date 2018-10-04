@@ -15,7 +15,7 @@
     <include>
       <uri>model://gazebo_config/aruco_19cm</uri>
       <name>aruco_19cm</name>
-      <pose>-2.0 0.5 0.649386 -1.57 -1.57 -1.57</pose>
+      <pose>-2.5 0.5 0.649386 -1.57 -1.57 -1.57</pose>
     </include>
     <!-- Just to cover the bad aruco marker made with LunArena -->
 <!--

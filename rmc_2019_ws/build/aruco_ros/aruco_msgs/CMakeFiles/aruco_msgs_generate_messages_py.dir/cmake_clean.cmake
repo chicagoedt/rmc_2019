@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/aruco_msgs_generate_messages_py"
-  "/home/chel/new_rmc_ws/devel/lib/python2.7/dist-packages/aruco_msgs/msg/_Marker.py"
-  "/home/chel/new_rmc_ws/devel/lib/python2.7/dist-packages/aruco_msgs/msg/_MarkerArray.py"
-  "/home/chel/new_rmc_ws/devel/lib/python2.7/dist-packages/aruco_msgs/msg/__init__.py"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/lib/python2.7/dist-packages/aruco_msgs/msg/_MarkerArray.py"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/lib/python2.7/dist-packages/aruco_msgs/msg/_Marker.py"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/lib/python2.7/dist-packages/aruco_msgs/msg/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

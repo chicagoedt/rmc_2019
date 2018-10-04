@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/marker_publisher.dir/src/marker_publish.cpp.o"
   "CMakeFiles/marker_publisher.dir/src/aruco_ros_utils.cpp.o"
-  "/home/chel/new_rmc_ws/devel/lib/aruco_ros/marker_publisher.pdb"
-  "/home/chel/new_rmc_ws/devel/lib/aruco_ros/marker_publisher"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/lib/aruco_ros/marker_publisher.pdb"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/lib/aruco_ros/marker_publisher"
 )
 
 # Per-language clean rules from dependency scanning.

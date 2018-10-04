@@ -1,8 +1,8 @@
-# Install script for directory: /home/chel/new_rmc_ws/src/common_msgs/trajectory_msgs
+# Install script for directory: /home/chel/rmc_2019/rmc_2019_ws/src/common_msgs/trajectory_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/chel/new_rmc_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/chel/rmc_2019/rmc_2019_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,61 +34,61 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/trajectory_msgs/msg" TYPE FILE FILES
-    "/home/chel/new_rmc_ws/src/common_msgs/trajectory_msgs/msg/JointTrajectory.msg"
-    "/home/chel/new_rmc_ws/src/common_msgs/trajectory_msgs/msg/JointTrajectoryPoint.msg"
-    "/home/chel/new_rmc_ws/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectory.msg"
-    "/home/chel/new_rmc_ws/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg"
+    "/home/chel/rmc_2019/rmc_2019_ws/src/common_msgs/trajectory_msgs/msg/JointTrajectory.msg"
+    "/home/chel/rmc_2019/rmc_2019_ws/src/common_msgs/trajectory_msgs/msg/JointTrajectoryPoint.msg"
+    "/home/chel/rmc_2019/rmc_2019_ws/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectory.msg"
+    "/home/chel/rmc_2019/rmc_2019_ws/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/trajectory_msgs/cmake" TYPE FILE FILES "/home/chel/new_rmc_ws/build/common_msgs/trajectory_msgs/catkin_generated/installspace/trajectory_msgs-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/trajectory_msgs/cmake" TYPE FILE FILES "/home/chel/rmc_2019/rmc_2019_ws/build/common_msgs/trajectory_msgs/catkin_generated/installspace/trajectory_msgs-msg-paths.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/chel/new_rmc_ws/devel/include/trajectory_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/chel/rmc_2019/rmc_2019_ws/devel/include/trajectory_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/chel/new_rmc_ws/devel/share/roseus/ros/trajectory_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/chel/rmc_2019/rmc_2019_ws/devel/share/roseus/ros/trajectory_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/chel/new_rmc_ws/devel/share/common-lisp/ros/trajectory_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/trajectory_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/chel/new_rmc_ws/devel/share/gennodejs/ros/trajectory_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/chel/rmc_2019/rmc_2019_ws/devel/share/gennodejs/ros/trajectory_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/chel/new_rmc_ws/devel/lib/python2.7/dist-packages/trajectory_msgs")
+  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/chel/rmc_2019/rmc_2019_ws/devel/lib/python2.7/dist-packages/trajectory_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/chel/new_rmc_ws/devel/lib/python2.7/dist-packages/trajectory_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/chel/rmc_2019/rmc_2019_ws/devel/lib/python2.7/dist-packages/trajectory_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/chel/new_rmc_ws/build/common_msgs/trajectory_msgs/catkin_generated/installspace/trajectory_msgs.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/chel/rmc_2019/rmc_2019_ws/build/common_msgs/trajectory_msgs/catkin_generated/installspace/trajectory_msgs.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/trajectory_msgs/cmake" TYPE FILE FILES "/home/chel/new_rmc_ws/build/common_msgs/trajectory_msgs/catkin_generated/installspace/trajectory_msgs-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/trajectory_msgs/cmake" TYPE FILE FILES "/home/chel/rmc_2019/rmc_2019_ws/build/common_msgs/trajectory_msgs/catkin_generated/installspace/trajectory_msgs-msg-extras.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/trajectory_msgs/cmake" TYPE FILE FILES
-    "/home/chel/new_rmc_ws/build/common_msgs/trajectory_msgs/catkin_generated/installspace/trajectory_msgsConfig.cmake"
-    "/home/chel/new_rmc_ws/build/common_msgs/trajectory_msgs/catkin_generated/installspace/trajectory_msgsConfig-version.cmake"
+    "/home/chel/rmc_2019/rmc_2019_ws/build/common_msgs/trajectory_msgs/catkin_generated/installspace/trajectory_msgsConfig.cmake"
+    "/home/chel/rmc_2019/rmc_2019_ws/build/common_msgs/trajectory_msgs/catkin_generated/installspace/trajectory_msgsConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/trajectory_msgs" TYPE FILE FILES "/home/chel/new_rmc_ws/src/common_msgs/trajectory_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/trajectory_msgs" TYPE FILE FILES "/home/chel/rmc_2019/rmc_2019_ws/src/common_msgs/trajectory_msgs/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/trajectory_msgs" TYPE DIRECTORY FILES "/home/chel/new_rmc_ws/src/common_msgs/trajectory_msgs/rules")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/trajectory_msgs" TYPE DIRECTORY FILES "/home/chel/rmc_2019/rmc_2019_ws/src/common_msgs/trajectory_msgs/rules")
 endif()
 

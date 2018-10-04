@@ -608,12 +608,6 @@ urdf_DIR:PATH=/opt/ros/kinetic/share/urdf/cmake
 urdfdom_headers_DIR:PATH=/usr/share/urdfdom_headers/cmake
 
 //Value Computed by CMake
-virtual_robot_BINARY_DIR:STATIC=/home/chel/new_rmc_ws/build/virtual_robot
-
-//Value Computed by CMake
-virtual_robot_SOURCE_DIR:STATIC=/home/chel/new_rmc_ws/src/virtual_robot
-
-//Value Computed by CMake
 visualization_msgs_BINARY_DIR:STATIC=/home/chel/rmc_2019/rmc_2019_ws/build/common_msgs/visualization_msgs
 
 //The directory containing a CMake configuration file for visualization_msgs.
@@ -632,7 +626,7 @@ xmlrpcpp_DIR:PATH=/opt/ros/kinetic/share/xmlrpcpp/cmake
 
 //catkin environment
 CATKIN_ENV:INTERNAL=/home/chel/rmc_2019/rmc_2019_ws/build/catkin_generated/env_cached.sh
-CATKIN_TEST_RESULTS_DIR:INTERNAL=/home/chel/new_rmc_ws/build/test_results
+CATKIN_TEST_RESULTS_DIR:INTERNAL=/home/chel/rmc_2019/rmc_2019_ws/build/test_results
 //ADVANCED property for variable: CMAKE_AR
 CMAKE_AR-ADVANCED:INTERNAL=1
 //This is the directory where this CMakeCache.txt was created
@@ -707,7 +701,7 @@ CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/chel/new_rmc_ws/src
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/chel/rmc_2019/rmc_2019_ws/src
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

@@ -13,6 +13,13 @@ StateMachine::~StateMachine()
 
 }
 
+void DockMaster::DockCoordinatesCallback(const new_robot::Docking &docker_msg) 
+{
+	dockPoseX = docker_msg.arucoX;
+	dockPoseY = docker_msg.arucoY;
+	goToBin = docker_msg.moveToBin;
+}
+
 void StateMachine::SetActuator(double position) 
 {
 	ROS_INFO("Moving Actuator!");
@@ -28,6 +35,8 @@ void StateMachine::SetActuator(double position)
 void StateMachine::Initialize() 
 {
 	actuator_pub = nh.advertise<std_msgs::Float64>("eugene/joint1_position_controller/command", 1);
+	docking_pub = nh.advertise<new_robot::Docking>("docking_state", 1);
+	docking_msg.beginDocking = false;
 }
 
 void StateMachine::SendGoal(double x, double y, double yaw)
@@ -56,6 +65,25 @@ void StateMachine::SendGoal(double x, double y, double yaw)
 	ros::Duration(1).sleep();
 }
 
+void StateMachine::Dock() {
+	docking_msg.beginDocking = true;
+
+	docking_pub.publish(docking_msg);
+	ros::spinOnce();
+
+	DockMaster docker;
+
+	docking_sub = nh.subscribe("docking_state", 1, &DockMaster::DockCoordinatesCallback, &docker);
+	
+	while (!docker.goToBin) {
+		ros::Duration(1).sleep();
+		ros::spinOnce();
+	}
+
+	ROS_INFO_STREAM("Docking, poseX: " << docker.dockPoseX << " poseY: " << docker.dockPoseY);
+	SendGoal(docker.dockPoseX, docker.dockPoseY, 0);
+}
+
 // Run the entire state machine sequentially.
 void StateMachine::Run() 
 {
@@ -65,5 +93,7 @@ void StateMachine::Run()
 
 	SendGoal(4.5, 0.5, 0);
 
-	SendGoal(1.0, 0, 0);
+	SendGoal(1.2, 0.5, 0);
+
+	Dock();
 }

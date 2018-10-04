@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"aruco_ros\"
 
-CXX_INCLUDES = -I/home/chel/new_rmc_ws/devel/include -I/home/chel/new_rmc_ws/src/aruco_ros/aruco_ros/include -I/home/chel/new_rmc_ws/src/common_msgs/sensor_msgs/include -I/home/chel/new_rmc_ws/src/aruco_ros/aruco/include -I/opt/ros/kinetic/include -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/chel/rmc_2019/rmc_2019_ws/devel/include -I/home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco_ros/include -I/home/chel/rmc_2019/rmc_2019_ws/src/common_msgs/sensor_msgs/include -I/home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco/include -I/opt/ros/kinetic/include -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

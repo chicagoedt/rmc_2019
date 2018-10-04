@@ -43,60 +43,60 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chel/new_rmc_ws/src
+CMAKE_SOURCE_DIR = /home/chel/rmc_2019/rmc_2019_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chel/new_rmc_ws/build
+CMAKE_BINARY_DIR = /home/chel/rmc_2019/rmc_2019_ws/build
 
 # Utility rule file for diagnostic_msgs_generate_messages_lisp.
 
 # Include the progress variables for this target.
 include common_msgs/diagnostic_msgs/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/progress.make
 
-common_msgs/diagnostic_msgs/CMakeFiles/diagnostic_msgs_generate_messages_lisp: /home/chel/new_rmc_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg/DiagnosticStatus.lisp
-common_msgs/diagnostic_msgs/CMakeFiles/diagnostic_msgs_generate_messages_lisp: /home/chel/new_rmc_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg/KeyValue.lisp
-common_msgs/diagnostic_msgs/CMakeFiles/diagnostic_msgs_generate_messages_lisp: /home/chel/new_rmc_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg/DiagnosticArray.lisp
-common_msgs/diagnostic_msgs/CMakeFiles/diagnostic_msgs_generate_messages_lisp: /home/chel/new_rmc_ws/devel/share/common-lisp/ros/diagnostic_msgs/srv/AddDiagnostics.lisp
-common_msgs/diagnostic_msgs/CMakeFiles/diagnostic_msgs_generate_messages_lisp: /home/chel/new_rmc_ws/devel/share/common-lisp/ros/diagnostic_msgs/srv/SelfTest.lisp
+common_msgs/diagnostic_msgs/CMakeFiles/diagnostic_msgs_generate_messages_lisp: /home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg/DiagnosticArray.lisp
+common_msgs/diagnostic_msgs/CMakeFiles/diagnostic_msgs_generate_messages_lisp: /home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg/DiagnosticStatus.lisp
+common_msgs/diagnostic_msgs/CMakeFiles/diagnostic_msgs_generate_messages_lisp: /home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg/KeyValue.lisp
+common_msgs/diagnostic_msgs/CMakeFiles/diagnostic_msgs_generate_messages_lisp: /home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/diagnostic_msgs/srv/AddDiagnostics.lisp
+common_msgs/diagnostic_msgs/CMakeFiles/diagnostic_msgs_generate_messages_lisp: /home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/diagnostic_msgs/srv/SelfTest.lisp
 
 
-/home/chel/new_rmc_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg/DiagnosticStatus.lisp: /opt/ros/kinetic/lib/genlisp/gen_lisp.py
-/home/chel/new_rmc_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg/DiagnosticStatus.lisp: /home/chel/new_rmc_ws/src/common_msgs/diagnostic_msgs/msg/DiagnosticStatus.msg
-/home/chel/new_rmc_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg/DiagnosticStatus.lisp: /home/chel/new_rmc_ws/src/common_msgs/diagnostic_msgs/msg/KeyValue.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chel/new_rmc_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from diagnostic_msgs/DiagnosticStatus.msg"
-	cd /home/chel/new_rmc_ws/build/common_msgs/diagnostic_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/chel/new_rmc_ws/src/common_msgs/diagnostic_msgs/msg/DiagnosticStatus.msg -Idiagnostic_msgs:/home/chel/new_rmc_ws/src/common_msgs/diagnostic_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p diagnostic_msgs -o /home/chel/new_rmc_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg
+/home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg/DiagnosticArray.lisp: /opt/ros/kinetic/lib/genlisp/gen_lisp.py
+/home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg/DiagnosticArray.lisp: /home/chel/rmc_2019/rmc_2019_ws/src/common_msgs/diagnostic_msgs/msg/DiagnosticArray.msg
+/home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg/DiagnosticArray.lisp: /home/chel/rmc_2019/rmc_2019_ws/src/common_msgs/diagnostic_msgs/msg/KeyValue.msg
+/home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg/DiagnosticArray.lisp: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg/DiagnosticArray.lisp: /home/chel/rmc_2019/rmc_2019_ws/src/common_msgs/diagnostic_msgs/msg/DiagnosticStatus.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chel/rmc_2019/rmc_2019_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from diagnostic_msgs/DiagnosticArray.msg"
+	cd /home/chel/rmc_2019/rmc_2019_ws/build/common_msgs/diagnostic_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/chel/rmc_2019/rmc_2019_ws/src/common_msgs/diagnostic_msgs/msg/DiagnosticArray.msg -Idiagnostic_msgs:/home/chel/rmc_2019/rmc_2019_ws/src/common_msgs/diagnostic_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p diagnostic_msgs -o /home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg
 
-/home/chel/new_rmc_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg/KeyValue.lisp: /opt/ros/kinetic/lib/genlisp/gen_lisp.py
-/home/chel/new_rmc_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg/KeyValue.lisp: /home/chel/new_rmc_ws/src/common_msgs/diagnostic_msgs/msg/KeyValue.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chel/new_rmc_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from diagnostic_msgs/KeyValue.msg"
-	cd /home/chel/new_rmc_ws/build/common_msgs/diagnostic_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/chel/new_rmc_ws/src/common_msgs/diagnostic_msgs/msg/KeyValue.msg -Idiagnostic_msgs:/home/chel/new_rmc_ws/src/common_msgs/diagnostic_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p diagnostic_msgs -o /home/chel/new_rmc_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg
+/home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg/DiagnosticStatus.lisp: /opt/ros/kinetic/lib/genlisp/gen_lisp.py
+/home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg/DiagnosticStatus.lisp: /home/chel/rmc_2019/rmc_2019_ws/src/common_msgs/diagnostic_msgs/msg/DiagnosticStatus.msg
+/home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg/DiagnosticStatus.lisp: /home/chel/rmc_2019/rmc_2019_ws/src/common_msgs/diagnostic_msgs/msg/KeyValue.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chel/rmc_2019/rmc_2019_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from diagnostic_msgs/DiagnosticStatus.msg"
+	cd /home/chel/rmc_2019/rmc_2019_ws/build/common_msgs/diagnostic_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/chel/rmc_2019/rmc_2019_ws/src/common_msgs/diagnostic_msgs/msg/DiagnosticStatus.msg -Idiagnostic_msgs:/home/chel/rmc_2019/rmc_2019_ws/src/common_msgs/diagnostic_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p diagnostic_msgs -o /home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg
 
-/home/chel/new_rmc_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg/DiagnosticArray.lisp: /opt/ros/kinetic/lib/genlisp/gen_lisp.py
-/home/chel/new_rmc_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg/DiagnosticArray.lisp: /home/chel/new_rmc_ws/src/common_msgs/diagnostic_msgs/msg/DiagnosticArray.msg
-/home/chel/new_rmc_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg/DiagnosticArray.lisp: /home/chel/new_rmc_ws/src/common_msgs/diagnostic_msgs/msg/KeyValue.msg
-/home/chel/new_rmc_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg/DiagnosticArray.lisp: /home/chel/new_rmc_ws/src/common_msgs/diagnostic_msgs/msg/DiagnosticStatus.msg
-/home/chel/new_rmc_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg/DiagnosticArray.lisp: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chel/new_rmc_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Lisp code from diagnostic_msgs/DiagnosticArray.msg"
-	cd /home/chel/new_rmc_ws/build/common_msgs/diagnostic_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/chel/new_rmc_ws/src/common_msgs/diagnostic_msgs/msg/DiagnosticArray.msg -Idiagnostic_msgs:/home/chel/new_rmc_ws/src/common_msgs/diagnostic_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p diagnostic_msgs -o /home/chel/new_rmc_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg
+/home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg/KeyValue.lisp: /opt/ros/kinetic/lib/genlisp/gen_lisp.py
+/home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg/KeyValue.lisp: /home/chel/rmc_2019/rmc_2019_ws/src/common_msgs/diagnostic_msgs/msg/KeyValue.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chel/rmc_2019/rmc_2019_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Lisp code from diagnostic_msgs/KeyValue.msg"
+	cd /home/chel/rmc_2019/rmc_2019_ws/build/common_msgs/diagnostic_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/chel/rmc_2019/rmc_2019_ws/src/common_msgs/diagnostic_msgs/msg/KeyValue.msg -Idiagnostic_msgs:/home/chel/rmc_2019/rmc_2019_ws/src/common_msgs/diagnostic_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p diagnostic_msgs -o /home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg
 
-/home/chel/new_rmc_ws/devel/share/common-lisp/ros/diagnostic_msgs/srv/AddDiagnostics.lisp: /opt/ros/kinetic/lib/genlisp/gen_lisp.py
-/home/chel/new_rmc_ws/devel/share/common-lisp/ros/diagnostic_msgs/srv/AddDiagnostics.lisp: /home/chel/new_rmc_ws/src/common_msgs/diagnostic_msgs/srv/AddDiagnostics.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chel/new_rmc_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Lisp code from diagnostic_msgs/AddDiagnostics.srv"
-	cd /home/chel/new_rmc_ws/build/common_msgs/diagnostic_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/chel/new_rmc_ws/src/common_msgs/diagnostic_msgs/srv/AddDiagnostics.srv -Idiagnostic_msgs:/home/chel/new_rmc_ws/src/common_msgs/diagnostic_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p diagnostic_msgs -o /home/chel/new_rmc_ws/devel/share/common-lisp/ros/diagnostic_msgs/srv
+/home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/diagnostic_msgs/srv/AddDiagnostics.lisp: /opt/ros/kinetic/lib/genlisp/gen_lisp.py
+/home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/diagnostic_msgs/srv/AddDiagnostics.lisp: /home/chel/rmc_2019/rmc_2019_ws/src/common_msgs/diagnostic_msgs/srv/AddDiagnostics.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chel/rmc_2019/rmc_2019_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Lisp code from diagnostic_msgs/AddDiagnostics.srv"
+	cd /home/chel/rmc_2019/rmc_2019_ws/build/common_msgs/diagnostic_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/chel/rmc_2019/rmc_2019_ws/src/common_msgs/diagnostic_msgs/srv/AddDiagnostics.srv -Idiagnostic_msgs:/home/chel/rmc_2019/rmc_2019_ws/src/common_msgs/diagnostic_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p diagnostic_msgs -o /home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/diagnostic_msgs/srv
 
-/home/chel/new_rmc_ws/devel/share/common-lisp/ros/diagnostic_msgs/srv/SelfTest.lisp: /opt/ros/kinetic/lib/genlisp/gen_lisp.py
-/home/chel/new_rmc_ws/devel/share/common-lisp/ros/diagnostic_msgs/srv/SelfTest.lisp: /home/chel/new_rmc_ws/src/common_msgs/diagnostic_msgs/srv/SelfTest.srv
-/home/chel/new_rmc_ws/devel/share/common-lisp/ros/diagnostic_msgs/srv/SelfTest.lisp: /home/chel/new_rmc_ws/src/common_msgs/diagnostic_msgs/msg/KeyValue.msg
-/home/chel/new_rmc_ws/devel/share/common-lisp/ros/diagnostic_msgs/srv/SelfTest.lisp: /home/chel/new_rmc_ws/src/common_msgs/diagnostic_msgs/msg/DiagnosticStatus.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chel/new_rmc_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Lisp code from diagnostic_msgs/SelfTest.srv"
-	cd /home/chel/new_rmc_ws/build/common_msgs/diagnostic_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/chel/new_rmc_ws/src/common_msgs/diagnostic_msgs/srv/SelfTest.srv -Idiagnostic_msgs:/home/chel/new_rmc_ws/src/common_msgs/diagnostic_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p diagnostic_msgs -o /home/chel/new_rmc_ws/devel/share/common-lisp/ros/diagnostic_msgs/srv
+/home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/diagnostic_msgs/srv/SelfTest.lisp: /opt/ros/kinetic/lib/genlisp/gen_lisp.py
+/home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/diagnostic_msgs/srv/SelfTest.lisp: /home/chel/rmc_2019/rmc_2019_ws/src/common_msgs/diagnostic_msgs/srv/SelfTest.srv
+/home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/diagnostic_msgs/srv/SelfTest.lisp: /home/chel/rmc_2019/rmc_2019_ws/src/common_msgs/diagnostic_msgs/msg/DiagnosticStatus.msg
+/home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/diagnostic_msgs/srv/SelfTest.lisp: /home/chel/rmc_2019/rmc_2019_ws/src/common_msgs/diagnostic_msgs/msg/KeyValue.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chel/rmc_2019/rmc_2019_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Lisp code from diagnostic_msgs/SelfTest.srv"
+	cd /home/chel/rmc_2019/rmc_2019_ws/build/common_msgs/diagnostic_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/chel/rmc_2019/rmc_2019_ws/src/common_msgs/diagnostic_msgs/srv/SelfTest.srv -Idiagnostic_msgs:/home/chel/rmc_2019/rmc_2019_ws/src/common_msgs/diagnostic_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p diagnostic_msgs -o /home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/diagnostic_msgs/srv
 
 diagnostic_msgs_generate_messages_lisp: common_msgs/diagnostic_msgs/CMakeFiles/diagnostic_msgs_generate_messages_lisp
-diagnostic_msgs_generate_messages_lisp: /home/chel/new_rmc_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg/DiagnosticStatus.lisp
-diagnostic_msgs_generate_messages_lisp: /home/chel/new_rmc_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg/KeyValue.lisp
-diagnostic_msgs_generate_messages_lisp: /home/chel/new_rmc_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg/DiagnosticArray.lisp
-diagnostic_msgs_generate_messages_lisp: /home/chel/new_rmc_ws/devel/share/common-lisp/ros/diagnostic_msgs/srv/AddDiagnostics.lisp
-diagnostic_msgs_generate_messages_lisp: /home/chel/new_rmc_ws/devel/share/common-lisp/ros/diagnostic_msgs/srv/SelfTest.lisp
+diagnostic_msgs_generate_messages_lisp: /home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg/DiagnosticArray.lisp
+diagnostic_msgs_generate_messages_lisp: /home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg/DiagnosticStatus.lisp
+diagnostic_msgs_generate_messages_lisp: /home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg/KeyValue.lisp
+diagnostic_msgs_generate_messages_lisp: /home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/diagnostic_msgs/srv/AddDiagnostics.lisp
+diagnostic_msgs_generate_messages_lisp: /home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/diagnostic_msgs/srv/SelfTest.lisp
 diagnostic_msgs_generate_messages_lisp: common_msgs/diagnostic_msgs/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build.make
 
 .PHONY : diagnostic_msgs_generate_messages_lisp
@@ -107,10 +107,10 @@ common_msgs/diagnostic_msgs/CMakeFiles/diagnostic_msgs_generate_messages_lisp.di
 .PHONY : common_msgs/diagnostic_msgs/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build
 
 common_msgs/diagnostic_msgs/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/clean:
-	cd /home/chel/new_rmc_ws/build/common_msgs/diagnostic_msgs && $(CMAKE_COMMAND) -P CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/chel/rmc_2019/rmc_2019_ws/build/common_msgs/diagnostic_msgs && $(CMAKE_COMMAND) -P CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : common_msgs/diagnostic_msgs/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/clean
 
 common_msgs/diagnostic_msgs/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/depend:
-	cd /home/chel/new_rmc_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chel/new_rmc_ws/src /home/chel/new_rmc_ws/src/common_msgs/diagnostic_msgs /home/chel/new_rmc_ws/build /home/chel/new_rmc_ws/build/common_msgs/diagnostic_msgs /home/chel/new_rmc_ws/build/common_msgs/diagnostic_msgs/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chel/rmc_2019/rmc_2019_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chel/rmc_2019/rmc_2019_ws/src /home/chel/rmc_2019/rmc_2019_ws/src/common_msgs/diagnostic_msgs /home/chel/rmc_2019/rmc_2019_ws/build /home/chel/rmc_2019/rmc_2019_ws/build/common_msgs/diagnostic_msgs /home/chel/rmc_2019/rmc_2019_ws/build/common_msgs/diagnostic_msgs/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : common_msgs/diagnostic_msgs/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/depend
 

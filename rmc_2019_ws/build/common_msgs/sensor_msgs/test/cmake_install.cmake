@@ -1,8 +1,8 @@
-# Install script for directory: /home/chel/new_rmc_ws/src/common_msgs/sensor_msgs/test
+# Install script for directory: /home/chel/rmc_2019/rmc_2019_ws/src/common_msgs/sensor_msgs/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/chel/new_rmc_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/chel/rmc_2019/rmc_2019_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

@@ -43,44 +43,44 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chel/new_rmc_ws/src
+CMAKE_SOURCE_DIR = /home/chel/rmc_2019/rmc_2019_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chel/new_rmc_ws/build
+CMAKE_BINARY_DIR = /home/chel/rmc_2019/rmc_2019_ws/build
 
 # Utility rule file for aruco_ros_gencfg.
 
 # Include the progress variables for this target.
 include aruco_ros/aruco_ros/CMakeFiles/aruco_ros_gencfg.dir/progress.make
 
-aruco_ros/aruco_ros/CMakeFiles/aruco_ros_gencfg: /home/chel/new_rmc_ws/devel/include/aruco_ros/ArucoThresholdConfig.h
-aruco_ros/aruco_ros/CMakeFiles/aruco_ros_gencfg: /home/chel/new_rmc_ws/devel/lib/python2.7/dist-packages/aruco_ros/cfg/ArucoThresholdConfig.py
+aruco_ros/aruco_ros/CMakeFiles/aruco_ros_gencfg: /home/chel/rmc_2019/rmc_2019_ws/devel/include/aruco_ros/ArucoThresholdConfig.h
+aruco_ros/aruco_ros/CMakeFiles/aruco_ros_gencfg: /home/chel/rmc_2019/rmc_2019_ws/devel/lib/python2.7/dist-packages/aruco_ros/cfg/ArucoThresholdConfig.py
 
 
-/home/chel/new_rmc_ws/devel/include/aruco_ros/ArucoThresholdConfig.h: /home/chel/new_rmc_ws/src/aruco_ros/aruco_ros/cfg/ArucoThreshold.cfg
-/home/chel/new_rmc_ws/devel/include/aruco_ros/ArucoThresholdConfig.h: /opt/ros/kinetic/share/dynamic_reconfigure/templates/ConfigType.py.template
-/home/chel/new_rmc_ws/devel/include/aruco_ros/ArucoThresholdConfig.h: /opt/ros/kinetic/share/dynamic_reconfigure/templates/ConfigType.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chel/new_rmc_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating dynamic reconfigure files from cfg/ArucoThreshold.cfg: /home/chel/new_rmc_ws/devel/include/aruco_ros/ArucoThresholdConfig.h /home/chel/new_rmc_ws/devel/lib/python2.7/dist-packages/aruco_ros/cfg/ArucoThresholdConfig.py"
-	cd /home/chel/new_rmc_ws/build/aruco_ros/aruco_ros && ../../catkin_generated/env_cached.sh /home/chel/new_rmc_ws/build/aruco_ros/aruco_ros/setup_custom_pythonpath.sh /home/chel/new_rmc_ws/src/aruco_ros/aruco_ros/cfg/ArucoThreshold.cfg /opt/ros/kinetic/share/dynamic_reconfigure/cmake/.. /home/chel/new_rmc_ws/devel/share/aruco_ros /home/chel/new_rmc_ws/devel/include/aruco_ros /home/chel/new_rmc_ws/devel/lib/python2.7/dist-packages/aruco_ros
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/aruco_ros/ArucoThresholdConfig.h: /home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco_ros/cfg/ArucoThreshold.cfg
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/aruco_ros/ArucoThresholdConfig.h: /opt/ros/kinetic/share/dynamic_reconfigure/templates/ConfigType.py.template
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/aruco_ros/ArucoThresholdConfig.h: /opt/ros/kinetic/share/dynamic_reconfigure/templates/ConfigType.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chel/rmc_2019/rmc_2019_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating dynamic reconfigure files from cfg/ArucoThreshold.cfg: /home/chel/rmc_2019/rmc_2019_ws/devel/include/aruco_ros/ArucoThresholdConfig.h /home/chel/rmc_2019/rmc_2019_ws/devel/lib/python2.7/dist-packages/aruco_ros/cfg/ArucoThresholdConfig.py"
+	cd /home/chel/rmc_2019/rmc_2019_ws/build/aruco_ros/aruco_ros && ../../catkin_generated/env_cached.sh /home/chel/rmc_2019/rmc_2019_ws/build/aruco_ros/aruco_ros/setup_custom_pythonpath.sh /home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco_ros/cfg/ArucoThreshold.cfg /opt/ros/kinetic/share/dynamic_reconfigure/cmake/.. /home/chel/rmc_2019/rmc_2019_ws/devel/share/aruco_ros /home/chel/rmc_2019/rmc_2019_ws/devel/include/aruco_ros /home/chel/rmc_2019/rmc_2019_ws/devel/lib/python2.7/dist-packages/aruco_ros
 
-/home/chel/new_rmc_ws/devel/share/aruco_ros/docs/ArucoThresholdConfig.dox: /home/chel/new_rmc_ws/devel/include/aruco_ros/ArucoThresholdConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/chel/new_rmc_ws/devel/share/aruco_ros/docs/ArucoThresholdConfig.dox
+/home/chel/rmc_2019/rmc_2019_ws/devel/share/aruco_ros/docs/ArucoThresholdConfig.dox: /home/chel/rmc_2019/rmc_2019_ws/devel/include/aruco_ros/ArucoThresholdConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/chel/rmc_2019/rmc_2019_ws/devel/share/aruco_ros/docs/ArucoThresholdConfig.dox
 
-/home/chel/new_rmc_ws/devel/share/aruco_ros/docs/ArucoThresholdConfig-usage.dox: /home/chel/new_rmc_ws/devel/include/aruco_ros/ArucoThresholdConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/chel/new_rmc_ws/devel/share/aruco_ros/docs/ArucoThresholdConfig-usage.dox
+/home/chel/rmc_2019/rmc_2019_ws/devel/share/aruco_ros/docs/ArucoThresholdConfig-usage.dox: /home/chel/rmc_2019/rmc_2019_ws/devel/include/aruco_ros/ArucoThresholdConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/chel/rmc_2019/rmc_2019_ws/devel/share/aruco_ros/docs/ArucoThresholdConfig-usage.dox
 
-/home/chel/new_rmc_ws/devel/lib/python2.7/dist-packages/aruco_ros/cfg/ArucoThresholdConfig.py: /home/chel/new_rmc_ws/devel/include/aruco_ros/ArucoThresholdConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/chel/new_rmc_ws/devel/lib/python2.7/dist-packages/aruco_ros/cfg/ArucoThresholdConfig.py
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/python2.7/dist-packages/aruco_ros/cfg/ArucoThresholdConfig.py: /home/chel/rmc_2019/rmc_2019_ws/devel/include/aruco_ros/ArucoThresholdConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/chel/rmc_2019/rmc_2019_ws/devel/lib/python2.7/dist-packages/aruco_ros/cfg/ArucoThresholdConfig.py
 
-/home/chel/new_rmc_ws/devel/share/aruco_ros/docs/ArucoThresholdConfig.wikidoc: /home/chel/new_rmc_ws/devel/include/aruco_ros/ArucoThresholdConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/chel/new_rmc_ws/devel/share/aruco_ros/docs/ArucoThresholdConfig.wikidoc
+/home/chel/rmc_2019/rmc_2019_ws/devel/share/aruco_ros/docs/ArucoThresholdConfig.wikidoc: /home/chel/rmc_2019/rmc_2019_ws/devel/include/aruco_ros/ArucoThresholdConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/chel/rmc_2019/rmc_2019_ws/devel/share/aruco_ros/docs/ArucoThresholdConfig.wikidoc
 
 aruco_ros_gencfg: aruco_ros/aruco_ros/CMakeFiles/aruco_ros_gencfg
-aruco_ros_gencfg: /home/chel/new_rmc_ws/devel/include/aruco_ros/ArucoThresholdConfig.h
-aruco_ros_gencfg: /home/chel/new_rmc_ws/devel/share/aruco_ros/docs/ArucoThresholdConfig.dox
-aruco_ros_gencfg: /home/chel/new_rmc_ws/devel/share/aruco_ros/docs/ArucoThresholdConfig-usage.dox
-aruco_ros_gencfg: /home/chel/new_rmc_ws/devel/lib/python2.7/dist-packages/aruco_ros/cfg/ArucoThresholdConfig.py
-aruco_ros_gencfg: /home/chel/new_rmc_ws/devel/share/aruco_ros/docs/ArucoThresholdConfig.wikidoc
+aruco_ros_gencfg: /home/chel/rmc_2019/rmc_2019_ws/devel/include/aruco_ros/ArucoThresholdConfig.h
+aruco_ros_gencfg: /home/chel/rmc_2019/rmc_2019_ws/devel/share/aruco_ros/docs/ArucoThresholdConfig.dox
+aruco_ros_gencfg: /home/chel/rmc_2019/rmc_2019_ws/devel/share/aruco_ros/docs/ArucoThresholdConfig-usage.dox
+aruco_ros_gencfg: /home/chel/rmc_2019/rmc_2019_ws/devel/lib/python2.7/dist-packages/aruco_ros/cfg/ArucoThresholdConfig.py
+aruco_ros_gencfg: /home/chel/rmc_2019/rmc_2019_ws/devel/share/aruco_ros/docs/ArucoThresholdConfig.wikidoc
 aruco_ros_gencfg: aruco_ros/aruco_ros/CMakeFiles/aruco_ros_gencfg.dir/build.make
 
 .PHONY : aruco_ros_gencfg
@@ -91,10 +91,10 @@ aruco_ros/aruco_ros/CMakeFiles/aruco_ros_gencfg.dir/build: aruco_ros_gencfg
 .PHONY : aruco_ros/aruco_ros/CMakeFiles/aruco_ros_gencfg.dir/build
 
 aruco_ros/aruco_ros/CMakeFiles/aruco_ros_gencfg.dir/clean:
-	cd /home/chel/new_rmc_ws/build/aruco_ros/aruco_ros && $(CMAKE_COMMAND) -P CMakeFiles/aruco_ros_gencfg.dir/cmake_clean.cmake
+	cd /home/chel/rmc_2019/rmc_2019_ws/build/aruco_ros/aruco_ros && $(CMAKE_COMMAND) -P CMakeFiles/aruco_ros_gencfg.dir/cmake_clean.cmake
 .PHONY : aruco_ros/aruco_ros/CMakeFiles/aruco_ros_gencfg.dir/clean
 
 aruco_ros/aruco_ros/CMakeFiles/aruco_ros_gencfg.dir/depend:
-	cd /home/chel/new_rmc_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chel/new_rmc_ws/src /home/chel/new_rmc_ws/src/aruco_ros/aruco_ros /home/chel/new_rmc_ws/build /home/chel/new_rmc_ws/build/aruco_ros/aruco_ros /home/chel/new_rmc_ws/build/aruco_ros/aruco_ros/CMakeFiles/aruco_ros_gencfg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chel/rmc_2019/rmc_2019_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chel/rmc_2019/rmc_2019_ws/src /home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco_ros /home/chel/rmc_2019/rmc_2019_ws/build /home/chel/rmc_2019/rmc_2019_ws/build/aruco_ros/aruco_ros /home/chel/rmc_2019/rmc_2019_ws/build/aruco_ros/aruco_ros/CMakeFiles/aruco_ros_gencfg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : aruco_ros/aruco_ros/CMakeFiles/aruco_ros_gencfg.dir/depend
 

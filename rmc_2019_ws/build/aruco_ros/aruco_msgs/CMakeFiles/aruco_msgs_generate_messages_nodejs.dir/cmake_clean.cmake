@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/aruco_msgs_generate_messages_nodejs"
-  "/home/chel/new_rmc_ws/devel/share/gennodejs/ros/aruco_msgs/msg/Marker.js"
-  "/home/chel/new_rmc_ws/devel/share/gennodejs/ros/aruco_msgs/msg/MarkerArray.js"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/share/gennodejs/ros/aruco_msgs/msg/MarkerArray.js"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/share/gennodejs/ros/aruco_msgs/msg/Marker.js"
 )
 
 # Per-language clean rules from dependency scanning.

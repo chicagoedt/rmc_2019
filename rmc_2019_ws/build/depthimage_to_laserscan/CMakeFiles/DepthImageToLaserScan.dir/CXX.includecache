@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/chel/new_rmc_ws/src/common_msgs/sensor_msgs/include/sensor_msgs/image_encodings.h
+/home/chel/rmc_2019/rmc_2019_ws/src/common_msgs/sensor_msgs/include/sensor_msgs/image_encodings.h
 cstdlib
 -
 stdexcept
@@ -14,7 +14,7 @@ stdexcept
 string
 -
 
-/home/chel/new_rmc_ws/src/depthimage_to_laserscan/include/depthimage_to_laserscan/DepthImageToLaserScan.h
+/home/chel/rmc_2019/rmc_2019_ws/src/depthimage_to_laserscan/include/depthimage_to_laserscan/DepthImageToLaserScan.h
 sensor_msgs/Image.h
 -
 sensor_msgs/LaserScan.h
@@ -32,13 +32,13 @@ limits.h
 math.h
 -
 
-/home/chel/new_rmc_ws/src/depthimage_to_laserscan/include/depthimage_to_laserscan/depth_traits.h
+/home/chel/rmc_2019/rmc_2019_ws/src/depthimage_to_laserscan/include/depthimage_to_laserscan/depth_traits.h
 algorithm
 -
 limits
 -
 
-/home/chel/new_rmc_ws/src/depthimage_to_laserscan/src/DepthImageToLaserScan.cpp
+/home/chel/rmc_2019/rmc_2019_ws/src/depthimage_to_laserscan/src/DepthImageToLaserScan.cpp
 depthimage_to_laserscan/DepthImageToLaserScan.h
 -
 

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/chel/new_rmc_ws/devel/include/depthimage_to_laserscan/DepthConfig.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/depthimage_to_laserscan/DepthConfig.h
 dynamic_reconfigure/config_tools.h
 -
 limits
@@ -24,7 +24,7 @@ dynamic_reconfigure/config_init_mutex.h
 boost/any.hpp
 -
 
-/home/chel/new_rmc_ws/devel/include/sensor_msgs/CameraInfo.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/sensor_msgs/CameraInfo.h
 string
 -
 vector
@@ -44,7 +44,7 @@ std_msgs/Header.h
 sensor_msgs/RegionOfInterest.h
 -
 
-/home/chel/new_rmc_ws/devel/include/sensor_msgs/Image.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/sensor_msgs/Image.h
 string
 -
 vector
@@ -62,7 +62,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chel/new_rmc_ws/devel/include/sensor_msgs/LaserScan.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/sensor_msgs/LaserScan.h
 string
 -
 vector
@@ -80,7 +80,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chel/new_rmc_ws/devel/include/sensor_msgs/RegionOfInterest.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/sensor_msgs/RegionOfInterest.h
 string
 -
 vector
@@ -96,7 +96,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/chel/new_rmc_ws/src/common_msgs/sensor_msgs/include/sensor_msgs/image_encodings.h
+/home/chel/rmc_2019/rmc_2019_ws/src/common_msgs/sensor_msgs/include/sensor_msgs/image_encodings.h
 cstdlib
 -
 stdexcept
@@ -104,7 +104,7 @@ stdexcept
 string
 -
 
-/home/chel/new_rmc_ws/src/depthimage_to_laserscan/include/depthimage_to_laserscan/DepthImageToLaserScan.h
+/home/chel/rmc_2019/rmc_2019_ws/src/depthimage_to_laserscan/include/depthimage_to_laserscan/DepthImageToLaserScan.h
 sensor_msgs/Image.h
 -
 sensor_msgs/LaserScan.h
@@ -122,7 +122,7 @@ limits.h
 math.h
 -
 
-/home/chel/new_rmc_ws/src/depthimage_to_laserscan/include/depthimage_to_laserscan/DepthImageToLaserScanROS.h
+/home/chel/rmc_2019/rmc_2019_ws/src/depthimage_to_laserscan/include/depthimage_to_laserscan/DepthImageToLaserScanROS.h
 ros/ros.h
 -
 image_transport/image_transport.h
@@ -140,13 +140,13 @@ depthimage_to_laserscan/DepthConfig.h
 depthimage_to_laserscan/DepthImageToLaserScan.h
 -
 
-/home/chel/new_rmc_ws/src/depthimage_to_laserscan/include/depthimage_to_laserscan/depth_traits.h
+/home/chel/rmc_2019/rmc_2019_ws/src/depthimage_to_laserscan/include/depthimage_to_laserscan/depth_traits.h
 algorithm
 -
 limits
 -
 
-/home/chel/new_rmc_ws/src/depthimage_to_laserscan/src/depthimage_to_laserscan.cpp
+/home/chel/rmc_2019/rmc_2019_ws/src/depthimage_to_laserscan/src/depthimage_to_laserscan.cpp
 depthimage_to_laserscan/DepthImageToLaserScanROS.h
 -
 

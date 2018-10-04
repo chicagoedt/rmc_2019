@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/test_subclass.dir/test/test_subclass.cpp.o"
-  "/home/chel/new_rmc_ws/devel/lib/robot_state_publisher/test_subclass.pdb"
-  "/home/chel/new_rmc_ws/devel/lib/robot_state_publisher/test_subclass"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/lib/robot_state_publisher/test_subclass.pdb"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/lib/robot_state_publisher/test_subclass"
 )
 
 # Per-language clean rules from dependency scanning.

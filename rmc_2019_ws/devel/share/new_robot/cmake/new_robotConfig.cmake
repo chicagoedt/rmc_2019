@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(new_robot_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/chel/rmc_2019/rmc_2019_ws/src/new_robot/include " STREQUAL " ")
+if(NOT "/home/chel/rmc_2019/rmc_2019_ws/devel/include;/home/chel/rmc_2019/rmc_2019_ws/src/new_robot/include " STREQUAL " ")
   set(new_robot_INCLUDE_DIRS "")
-  set(_include_dirs "/home/chel/rmc_2019/rmc_2019_ws/src/new_robot/include")
+  set(_include_dirs "/home/chel/rmc_2019/rmc_2019_ws/devel/include;/home/chel/rmc_2019/rmc_2019_ws/src/new_robot/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -129,7 +129,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/chel/rmc_2019/rmc_2019_ws/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/chel/rmc_2019/rmc_2019_ws/devel/lib;/home/chel/rmc_2019/rmc_2019_ws/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
@@ -152,7 +152,7 @@ foreach(library ${libraries})
   endif()
 endforeach()
 
-set(new_robot_EXPORTED_TARGETS "")
+set(new_robot_EXPORTED_TARGETS "new_robot_generate_messages_cpp;new_robot_generate_messages_eus;new_robot_generate_messages_lisp;new_robot_generate_messages_nodejs;new_robot_generate_messages_py")
 # create dummy targets for exported code generation targets to make life of users easier
 foreach(t ${new_robot_EXPORTED_TARGETS})
   if(NOT TARGET ${t})
@@ -189,7 +189,7 @@ foreach(depend ${depends})
   list(APPEND new_robot_EXPORTED_TARGETS ${${new_robot_dep}_EXPORTED_TARGETS})
 endforeach()
 
-set(pkg_cfg_extras "")
+set(pkg_cfg_extras "new_robot-msg-extras.cmake")
 foreach(extra ${pkg_cfg_extras})
   if(NOT IS_ABSOLUTE ${extra})
     set(extra ${new_robot_DIR}/${extra})

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/chel/new_rmc_ws/devel/include/actionlib_msgs/GoalID.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/actionlib_msgs/GoalID.h
 string
 -
 vector
@@ -22,7 +22,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/chel/new_rmc_ws/devel/include/actionlib_msgs/GoalStatus.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/actionlib_msgs/GoalStatus.h
 string
 -
 vector
@@ -40,7 +40,7 @@ ros/message_operations.h
 actionlib_msgs/GoalID.h
 -
 
-/home/chel/new_rmc_ws/devel/include/actionlib_msgs/GoalStatusArray.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/actionlib_msgs/GoalStatusArray.h
 string
 -
 vector
@@ -60,7 +60,7 @@ std_msgs/Header.h
 actionlib_msgs/GoalStatus.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/Point.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/Point.h
 string
 -
 vector
@@ -76,7 +76,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/Point32.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/Point32.h
 string
 -
 vector
@@ -92,7 +92,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/PointStamped.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/PointStamped.h
 string
 -
 vector
@@ -112,7 +112,7 @@ std_msgs/Header.h
 geometry_msgs/Point.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/Pose.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/Pose.h
 string
 -
 vector
@@ -132,7 +132,7 @@ geometry_msgs/Point.h
 geometry_msgs/Quaternion.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/PoseStamped.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/PoseStamped.h
 string
 -
 vector
@@ -152,7 +152,7 @@ std_msgs/Header.h
 geometry_msgs/Pose.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/PoseWithCovariance.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/PoseWithCovariance.h
 string
 -
 vector
@@ -170,7 +170,7 @@ ros/message_operations.h
 geometry_msgs/Pose.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/PoseWithCovarianceStamped.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/PoseWithCovarianceStamped.h
 string
 -
 vector
@@ -190,7 +190,7 @@ std_msgs/Header.h
 geometry_msgs/PoseWithCovariance.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/Quaternion.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/Quaternion.h
 string
 -
 vector
@@ -206,7 +206,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/QuaternionStamped.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/QuaternionStamped.h
 string
 -
 vector
@@ -226,7 +226,7 @@ std_msgs/Header.h
 geometry_msgs/Quaternion.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/Transform.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/Transform.h
 string
 -
 vector
@@ -246,7 +246,7 @@ geometry_msgs/Vector3.h
 geometry_msgs/Quaternion.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/TransformStamped.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/TransformStamped.h
 string
 -
 vector
@@ -266,7 +266,7 @@ std_msgs/Header.h
 geometry_msgs/Transform.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/Twist.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/Twist.h
 string
 -
 vector
@@ -286,7 +286,7 @@ geometry_msgs/Vector3.h
 geometry_msgs/Vector3.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/TwistStamped.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/TwistStamped.h
 string
 -
 vector
@@ -306,7 +306,7 @@ std_msgs/Header.h
 geometry_msgs/Twist.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/Vector3.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/Vector3.h
 string
 -
 vector
@@ -322,7 +322,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/Vector3Stamped.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/Vector3Stamped.h
 string
 -
 vector
@@ -342,7 +342,7 @@ std_msgs/Header.h
 geometry_msgs/Vector3.h
 -
 
-/home/chel/new_rmc_ws/devel/include/sensor_msgs/ChannelFloat32.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/new_robot/Docking.h
 string
 -
 vector
@@ -358,7 +358,23 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/chel/new_rmc_ws/devel/include/sensor_msgs/PointCloud.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/sensor_msgs/ChannelFloat32.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/sensor_msgs/PointCloud.h
 string
 -
 vector
@@ -380,7 +396,7 @@ geometry_msgs/Point32.h
 sensor_msgs/ChannelFloat32.h
 -
 
-/home/chel/new_rmc_ws/src/state_machine/include/state_machine.h
+/home/chel/rmc_2019/rmc_2019_ws/src/state_machine/include/state_machine.h
 ros/ros.h
 -
 move_base_msgs/MoveBaseAction.h
@@ -397,14 +413,16 @@ tf/transform_listener.h
 -
 std_msgs/Float64.h
 -
+new_robot/Docking.h
+-
 
-/home/chel/new_rmc_ws/src/state_machine/src/main.cpp
+/home/chel/rmc_2019/rmc_2019_ws/src/state_machine/src/main.cpp
 state_machine.h
-/home/chel/new_rmc_ws/src/state_machine/src/state_machine.h
+/home/chel/rmc_2019/rmc_2019_ws/src/state_machine/src/state_machine.h
 
-/home/chel/new_rmc_ws/src/state_machine/src/state_machine.cpp
+/home/chel/rmc_2019/rmc_2019_ws/src/state_machine/src/state_machine.cpp
 state_machine.h
-/home/chel/new_rmc_ws/src/state_machine/src/state_machine.h
+/home/chel/rmc_2019/rmc_2019_ws/src/state_machine/src/state_machine.h
 
 /opt/ros/kinetic/include/actionlib/action_definition.h
 

@@ -1,8 +1,0 @@
-prefix=/home/chel/new_rmc_ws/devel
-
-Name: virtual_robot
-Description: Description of virtual_robot
-Version: 0.0.0
-Cflags: -I/home/chel/new_rmc_ws/src/virtual_robot/include
-Libs: -L/home/chel/new_rmc_ws/devel/lib 
-Requires: 

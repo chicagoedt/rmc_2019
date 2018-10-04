@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chel/new_rmc_ws/src
+CMAKE_SOURCE_DIR = /home/chel/rmc_2019/rmc_2019_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chel/new_rmc_ws/build
+CMAKE_BINARY_DIR = /home/chel/rmc_2019/rmc_2019_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/chel/new_rmc_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chel/new_rmc_ws/build/CMakeFiles /home/chel/new_rmc_ws/build/aruco_ros/aruco/CMakeFiles/progress.marks
-	cd /home/chel/new_rmc_ws/build && $(MAKE) -f CMakeFiles/Makefile2 aruco_ros/aruco/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chel/new_rmc_ws/build/CMakeFiles 0
+	cd /home/chel/rmc_2019/rmc_2019_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chel/rmc_2019/rmc_2019_ws/build/CMakeFiles /home/chel/rmc_2019/rmc_2019_ws/build/aruco_ros/aruco/CMakeFiles/progress.marks
+	cd /home/chel/rmc_2019/rmc_2019_ws/build && $(MAKE) -f CMakeFiles/Makefile2 aruco_ros/aruco/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chel/rmc_2019/rmc_2019_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/chel/new_rmc_ws/build && $(MAKE) -f CMakeFiles/Makefile2 aruco_ros/aruco/clean
+	cd /home/chel/rmc_2019/rmc_2019_ws/build && $(MAKE) -f CMakeFiles/Makefile2 aruco_ros/aruco/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/chel/new_rmc_ws/build && $(MAKE) -f CMakeFiles/Makefile2 aruco_ros/aruco/preinstall
+	cd /home/chel/rmc_2019/rmc_2019_ws/build && $(MAKE) -f CMakeFiles/Makefile2 aruco_ros/aruco/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/chel/new_rmc_ws/build && $(MAKE) -f CMakeFiles/Makefile2 aruco_ros/aruco/preinstall
+	cd /home/chel/rmc_2019/rmc_2019_ws/build && $(MAKE) -f CMakeFiles/Makefile2 aruco_ros/aruco/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/chel/new_rmc_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/chel/rmc_2019/rmc_2019_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 aruco_ros/aruco/CMakeFiles/optimalmarkers.dir/rule:
-	cd /home/chel/new_rmc_ws/build && $(MAKE) -f CMakeFiles/Makefile2 aruco_ros/aruco/CMakeFiles/optimalmarkers.dir/rule
+	cd /home/chel/rmc_2019/rmc_2019_ws/build && $(MAKE) -f CMakeFiles/Makefile2 aruco_ros/aruco/CMakeFiles/optimalmarkers.dir/rule
 .PHONY : aruco_ros/aruco/CMakeFiles/optimalmarkers.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ optimalmarkers: aruco_ros/aruco/CMakeFiles/optimalmarkers.dir/rule
 
 # fast build rule for target.
 optimalmarkers/fast:
-	cd /home/chel/new_rmc_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/optimalmarkers.dir/build.make aruco_ros/aruco/CMakeFiles/optimalmarkers.dir/build
+	cd /home/chel/rmc_2019/rmc_2019_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/optimalmarkers.dir/build.make aruco_ros/aruco/CMakeFiles/optimalmarkers.dir/build
 .PHONY : optimalmarkers/fast
 
 # Convenience name for target.
 aruco_ros/aruco/CMakeFiles/aruco.dir/rule:
-	cd /home/chel/new_rmc_ws/build && $(MAKE) -f CMakeFiles/Makefile2 aruco_ros/aruco/CMakeFiles/aruco.dir/rule
+	cd /home/chel/rmc_2019/rmc_2019_ws/build && $(MAKE) -f CMakeFiles/Makefile2 aruco_ros/aruco/CMakeFiles/aruco.dir/rule
 .PHONY : aruco_ros/aruco/CMakeFiles/aruco.dir/rule
 
 # Convenience name for target.
@@ -192,7 +192,7 @@ aruco: aruco_ros/aruco/CMakeFiles/aruco.dir/rule
 
 # fast build rule for target.
 aruco/fast:
-	cd /home/chel/new_rmc_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/build
+	cd /home/chel/rmc_2019/rmc_2019_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/build
 .PHONY : aruco/fast
 
 src/aruco/aruco_selectoptimalmarkers.o: src/aruco/aruco_selectoptimalmarkers.cpp.o
@@ -201,7 +201,7 @@ src/aruco/aruco_selectoptimalmarkers.o: src/aruco/aruco_selectoptimalmarkers.cpp
 
 # target to build an object file
 src/aruco/aruco_selectoptimalmarkers.cpp.o:
-	cd /home/chel/new_rmc_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/optimalmarkers.dir/build.make aruco_ros/aruco/CMakeFiles/optimalmarkers.dir/src/aruco/aruco_selectoptimalmarkers.cpp.o
+	cd /home/chel/rmc_2019/rmc_2019_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/optimalmarkers.dir/build.make aruco_ros/aruco/CMakeFiles/optimalmarkers.dir/src/aruco/aruco_selectoptimalmarkers.cpp.o
 .PHONY : src/aruco/aruco_selectoptimalmarkers.cpp.o
 
 src/aruco/aruco_selectoptimalmarkers.i: src/aruco/aruco_selectoptimalmarkers.cpp.i
@@ -210,7 +210,7 @@ src/aruco/aruco_selectoptimalmarkers.i: src/aruco/aruco_selectoptimalmarkers.cpp
 
 # target to preprocess a source file
 src/aruco/aruco_selectoptimalmarkers.cpp.i:
-	cd /home/chel/new_rmc_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/optimalmarkers.dir/build.make aruco_ros/aruco/CMakeFiles/optimalmarkers.dir/src/aruco/aruco_selectoptimalmarkers.cpp.i
+	cd /home/chel/rmc_2019/rmc_2019_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/optimalmarkers.dir/build.make aruco_ros/aruco/CMakeFiles/optimalmarkers.dir/src/aruco/aruco_selectoptimalmarkers.cpp.i
 .PHONY : src/aruco/aruco_selectoptimalmarkers.cpp.i
 
 src/aruco/aruco_selectoptimalmarkers.s: src/aruco/aruco_selectoptimalmarkers.cpp.s
@@ -219,7 +219,7 @@ src/aruco/aruco_selectoptimalmarkers.s: src/aruco/aruco_selectoptimalmarkers.cpp
 
 # target to generate assembly for a file
 src/aruco/aruco_selectoptimalmarkers.cpp.s:
-	cd /home/chel/new_rmc_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/optimalmarkers.dir/build.make aruco_ros/aruco/CMakeFiles/optimalmarkers.dir/src/aruco/aruco_selectoptimalmarkers.cpp.s
+	cd /home/chel/rmc_2019/rmc_2019_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/optimalmarkers.dir/build.make aruco_ros/aruco/CMakeFiles/optimalmarkers.dir/src/aruco/aruco_selectoptimalmarkers.cpp.s
 .PHONY : src/aruco/aruco_selectoptimalmarkers.cpp.s
 
 src/aruco/arucofidmarkers.o: src/aruco/arucofidmarkers.cpp.o
@@ -228,7 +228,7 @@ src/aruco/arucofidmarkers.o: src/aruco/arucofidmarkers.cpp.o
 
 # target to build an object file
 src/aruco/arucofidmarkers.cpp.o:
-	cd /home/chel/new_rmc_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/arucofidmarkers.cpp.o
+	cd /home/chel/rmc_2019/rmc_2019_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/arucofidmarkers.cpp.o
 .PHONY : src/aruco/arucofidmarkers.cpp.o
 
 src/aruco/arucofidmarkers.i: src/aruco/arucofidmarkers.cpp.i
@@ -237,7 +237,7 @@ src/aruco/arucofidmarkers.i: src/aruco/arucofidmarkers.cpp.i
 
 # target to preprocess a source file
 src/aruco/arucofidmarkers.cpp.i:
-	cd /home/chel/new_rmc_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/arucofidmarkers.cpp.i
+	cd /home/chel/rmc_2019/rmc_2019_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/arucofidmarkers.cpp.i
 .PHONY : src/aruco/arucofidmarkers.cpp.i
 
 src/aruco/arucofidmarkers.s: src/aruco/arucofidmarkers.cpp.s
@@ -246,7 +246,7 @@ src/aruco/arucofidmarkers.s: src/aruco/arucofidmarkers.cpp.s
 
 # target to generate assembly for a file
 src/aruco/arucofidmarkers.cpp.s:
-	cd /home/chel/new_rmc_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/arucofidmarkers.cpp.s
+	cd /home/chel/rmc_2019/rmc_2019_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/arucofidmarkers.cpp.s
 .PHONY : src/aruco/arucofidmarkers.cpp.s
 
 src/aruco/board.o: src/aruco/board.cpp.o
@@ -255,7 +255,7 @@ src/aruco/board.o: src/aruco/board.cpp.o
 
 # target to build an object file
 src/aruco/board.cpp.o:
-	cd /home/chel/new_rmc_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/board.cpp.o
+	cd /home/chel/rmc_2019/rmc_2019_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/board.cpp.o
 .PHONY : src/aruco/board.cpp.o
 
 src/aruco/board.i: src/aruco/board.cpp.i
@@ -264,7 +264,7 @@ src/aruco/board.i: src/aruco/board.cpp.i
 
 # target to preprocess a source file
 src/aruco/board.cpp.i:
-	cd /home/chel/new_rmc_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/board.cpp.i
+	cd /home/chel/rmc_2019/rmc_2019_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/board.cpp.i
 .PHONY : src/aruco/board.cpp.i
 
 src/aruco/board.s: src/aruco/board.cpp.s
@@ -273,7 +273,7 @@ src/aruco/board.s: src/aruco/board.cpp.s
 
 # target to generate assembly for a file
 src/aruco/board.cpp.s:
-	cd /home/chel/new_rmc_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/board.cpp.s
+	cd /home/chel/rmc_2019/rmc_2019_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/board.cpp.s
 .PHONY : src/aruco/board.cpp.s
 
 src/aruco/boarddetector.o: src/aruco/boarddetector.cpp.o
@@ -282,7 +282,7 @@ src/aruco/boarddetector.o: src/aruco/boarddetector.cpp.o
 
 # target to build an object file
 src/aruco/boarddetector.cpp.o:
-	cd /home/chel/new_rmc_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/boarddetector.cpp.o
+	cd /home/chel/rmc_2019/rmc_2019_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/boarddetector.cpp.o
 .PHONY : src/aruco/boarddetector.cpp.o
 
 src/aruco/boarddetector.i: src/aruco/boarddetector.cpp.i
@@ -291,7 +291,7 @@ src/aruco/boarddetector.i: src/aruco/boarddetector.cpp.i
 
 # target to preprocess a source file
 src/aruco/boarddetector.cpp.i:
-	cd /home/chel/new_rmc_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/boarddetector.cpp.i
+	cd /home/chel/rmc_2019/rmc_2019_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/boarddetector.cpp.i
 .PHONY : src/aruco/boarddetector.cpp.i
 
 src/aruco/boarddetector.s: src/aruco/boarddetector.cpp.s
@@ -300,7 +300,7 @@ src/aruco/boarddetector.s: src/aruco/boarddetector.cpp.s
 
 # target to generate assembly for a file
 src/aruco/boarddetector.cpp.s:
-	cd /home/chel/new_rmc_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/boarddetector.cpp.s
+	cd /home/chel/rmc_2019/rmc_2019_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/boarddetector.cpp.s
 .PHONY : src/aruco/boarddetector.cpp.s
 
 src/aruco/cameraparameters.o: src/aruco/cameraparameters.cpp.o
@@ -309,7 +309,7 @@ src/aruco/cameraparameters.o: src/aruco/cameraparameters.cpp.o
 
 # target to build an object file
 src/aruco/cameraparameters.cpp.o:
-	cd /home/chel/new_rmc_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/cameraparameters.cpp.o
+	cd /home/chel/rmc_2019/rmc_2019_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/cameraparameters.cpp.o
 .PHONY : src/aruco/cameraparameters.cpp.o
 
 src/aruco/cameraparameters.i: src/aruco/cameraparameters.cpp.i
@@ -318,7 +318,7 @@ src/aruco/cameraparameters.i: src/aruco/cameraparameters.cpp.i
 
 # target to preprocess a source file
 src/aruco/cameraparameters.cpp.i:
-	cd /home/chel/new_rmc_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/cameraparameters.cpp.i
+	cd /home/chel/rmc_2019/rmc_2019_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/cameraparameters.cpp.i
 .PHONY : src/aruco/cameraparameters.cpp.i
 
 src/aruco/cameraparameters.s: src/aruco/cameraparameters.cpp.s
@@ -327,7 +327,7 @@ src/aruco/cameraparameters.s: src/aruco/cameraparameters.cpp.s
 
 # target to generate assembly for a file
 src/aruco/cameraparameters.cpp.s:
-	cd /home/chel/new_rmc_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/cameraparameters.cpp.s
+	cd /home/chel/rmc_2019/rmc_2019_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/cameraparameters.cpp.s
 .PHONY : src/aruco/cameraparameters.cpp.s
 
 src/aruco/cvdrawingutils.o: src/aruco/cvdrawingutils.cpp.o
@@ -336,7 +336,7 @@ src/aruco/cvdrawingutils.o: src/aruco/cvdrawingutils.cpp.o
 
 # target to build an object file
 src/aruco/cvdrawingutils.cpp.o:
-	cd /home/chel/new_rmc_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/cvdrawingutils.cpp.o
+	cd /home/chel/rmc_2019/rmc_2019_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/cvdrawingutils.cpp.o
 .PHONY : src/aruco/cvdrawingutils.cpp.o
 
 src/aruco/cvdrawingutils.i: src/aruco/cvdrawingutils.cpp.i
@@ -345,7 +345,7 @@ src/aruco/cvdrawingutils.i: src/aruco/cvdrawingutils.cpp.i
 
 # target to preprocess a source file
 src/aruco/cvdrawingutils.cpp.i:
-	cd /home/chel/new_rmc_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/cvdrawingutils.cpp.i
+	cd /home/chel/rmc_2019/rmc_2019_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/cvdrawingutils.cpp.i
 .PHONY : src/aruco/cvdrawingutils.cpp.i
 
 src/aruco/cvdrawingutils.s: src/aruco/cvdrawingutils.cpp.s
@@ -354,7 +354,7 @@ src/aruco/cvdrawingutils.s: src/aruco/cvdrawingutils.cpp.s
 
 # target to generate assembly for a file
 src/aruco/cvdrawingutils.cpp.s:
-	cd /home/chel/new_rmc_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/cvdrawingutils.cpp.s
+	cd /home/chel/rmc_2019/rmc_2019_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/cvdrawingutils.cpp.s
 .PHONY : src/aruco/cvdrawingutils.cpp.s
 
 src/aruco/marker.o: src/aruco/marker.cpp.o
@@ -363,7 +363,7 @@ src/aruco/marker.o: src/aruco/marker.cpp.o
 
 # target to build an object file
 src/aruco/marker.cpp.o:
-	cd /home/chel/new_rmc_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/marker.cpp.o
+	cd /home/chel/rmc_2019/rmc_2019_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/marker.cpp.o
 .PHONY : src/aruco/marker.cpp.o
 
 src/aruco/marker.i: src/aruco/marker.cpp.i
@@ -372,7 +372,7 @@ src/aruco/marker.i: src/aruco/marker.cpp.i
 
 # target to preprocess a source file
 src/aruco/marker.cpp.i:
-	cd /home/chel/new_rmc_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/marker.cpp.i
+	cd /home/chel/rmc_2019/rmc_2019_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/marker.cpp.i
 .PHONY : src/aruco/marker.cpp.i
 
 src/aruco/marker.s: src/aruco/marker.cpp.s
@@ -381,7 +381,7 @@ src/aruco/marker.s: src/aruco/marker.cpp.s
 
 # target to generate assembly for a file
 src/aruco/marker.cpp.s:
-	cd /home/chel/new_rmc_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/marker.cpp.s
+	cd /home/chel/rmc_2019/rmc_2019_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/marker.cpp.s
 .PHONY : src/aruco/marker.cpp.s
 
 src/aruco/markerdetector.o: src/aruco/markerdetector.cpp.o
@@ -390,7 +390,7 @@ src/aruco/markerdetector.o: src/aruco/markerdetector.cpp.o
 
 # target to build an object file
 src/aruco/markerdetector.cpp.o:
-	cd /home/chel/new_rmc_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/markerdetector.cpp.o
+	cd /home/chel/rmc_2019/rmc_2019_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/markerdetector.cpp.o
 .PHONY : src/aruco/markerdetector.cpp.o
 
 src/aruco/markerdetector.i: src/aruco/markerdetector.cpp.i
@@ -399,7 +399,7 @@ src/aruco/markerdetector.i: src/aruco/markerdetector.cpp.i
 
 # target to preprocess a source file
 src/aruco/markerdetector.cpp.i:
-	cd /home/chel/new_rmc_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/markerdetector.cpp.i
+	cd /home/chel/rmc_2019/rmc_2019_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/markerdetector.cpp.i
 .PHONY : src/aruco/markerdetector.cpp.i
 
 src/aruco/markerdetector.s: src/aruco/markerdetector.cpp.s
@@ -408,7 +408,7 @@ src/aruco/markerdetector.s: src/aruco/markerdetector.cpp.s
 
 # target to generate assembly for a file
 src/aruco/markerdetector.cpp.s:
-	cd /home/chel/new_rmc_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/markerdetector.cpp.s
+	cd /home/chel/rmc_2019/rmc_2019_ws/build && $(MAKE) -f aruco_ros/aruco/CMakeFiles/aruco.dir/build.make aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/markerdetector.cpp.s
 .PHONY : src/aruco/markerdetector.cpp.s
 
 # Help Target
@@ -461,6 +461,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/chel/new_rmc_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/chel/rmc_2019/rmc_2019_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

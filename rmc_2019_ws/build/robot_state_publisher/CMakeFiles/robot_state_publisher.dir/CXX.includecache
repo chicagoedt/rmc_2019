@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/Point.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/Point.h
 string
 -
 vector
@@ -22,7 +22,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/PointStamped.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/PointStamped.h
 string
 -
 vector
@@ -42,7 +42,7 @@ std_msgs/Header.h
 geometry_msgs/Point.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/Pose.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/Pose.h
 string
 -
 vector
@@ -62,7 +62,7 @@ geometry_msgs/Point.h
 geometry_msgs/Quaternion.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/PoseStamped.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/PoseStamped.h
 string
 -
 vector
@@ -82,7 +82,7 @@ std_msgs/Header.h
 geometry_msgs/Pose.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/Quaternion.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/Quaternion.h
 string
 -
 vector
@@ -98,7 +98,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/QuaternionStamped.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/QuaternionStamped.h
 string
 -
 vector
@@ -118,7 +118,7 @@ std_msgs/Header.h
 geometry_msgs/Quaternion.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/Transform.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/Transform.h
 string
 -
 vector
@@ -138,7 +138,7 @@ geometry_msgs/Vector3.h
 geometry_msgs/Quaternion.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/TransformStamped.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/TransformStamped.h
 string
 -
 vector
@@ -158,7 +158,7 @@ std_msgs/Header.h
 geometry_msgs/Transform.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/Twist.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/Twist.h
 string
 -
 vector
@@ -178,7 +178,7 @@ geometry_msgs/Vector3.h
 geometry_msgs/Vector3.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/TwistStamped.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/TwistStamped.h
 string
 -
 vector
@@ -198,7 +198,7 @@ std_msgs/Header.h
 geometry_msgs/Twist.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/Vector3.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/Vector3.h
 string
 -
 vector
@@ -214,7 +214,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/Vector3Stamped.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/Vector3Stamped.h
 string
 -
 vector
@@ -234,25 +234,7 @@ std_msgs/Header.h
 geometry_msgs/Vector3.h
 -
 
-/home/chel/new_rmc_ws/devel/include/sensor_msgs/JointState.h
-string
--
-vector
--
-map
--
-ros/types.h
--
-ros/serialization.h
--
-ros/builtin_message_traits.h
--
-ros/message_operations.h
--
-std_msgs/Header.h
--
-
-/home/chel/new_rmc_ws/src/robot_state_publisher/include/robot_state_publisher/joint_state_listener.h
+/home/chel/rmc_2019/rmc_2019_ws/src/robot_state_publisher/include/robot_state_publisher/joint_state_listener.h
 urdf/model.h
 -
 kdl/tree.hpp
@@ -262,9 +244,9 @@ ros/ros.h
 sensor_msgs/JointState.h
 -
 robot_state_publisher/robot_state_publisher.h
-/home/chel/new_rmc_ws/src/robot_state_publisher/include/robot_state_publisher/robot_state_publisher/robot_state_publisher.h
+/home/chel/rmc_2019/rmc_2019_ws/src/robot_state_publisher/include/robot_state_publisher/robot_state_publisher/robot_state_publisher.h
 
-/home/chel/new_rmc_ws/src/robot_state_publisher/include/robot_state_publisher/robot_state_publisher.h
+/home/chel/rmc_2019/rmc_2019_ws/src/robot_state_publisher/include/robot_state_publisher/robot_state_publisher.h
 ros/ros.h
 -
 boost/scoped_ptr.hpp
@@ -284,7 +266,7 @@ kdl/segment.hpp
 kdl/tree.hpp
 -
 
-/home/chel/new_rmc_ws/src/robot_state_publisher/src/joint_state_listener.cpp
+/home/chel/rmc_2019/rmc_2019_ws/src/robot_state_publisher/src/joint_state_listener.cpp
 ros/ros.h
 -
 urdf/model.h
@@ -294,9 +276,9 @@ kdl/tree.hpp
 kdl_parser/kdl_parser.hpp
 -
 robot_state_publisher/robot_state_publisher.h
-/home/chel/new_rmc_ws/src/robot_state_publisher/src/robot_state_publisher/robot_state_publisher.h
+/home/chel/rmc_2019/rmc_2019_ws/src/robot_state_publisher/src/robot_state_publisher/robot_state_publisher.h
 robot_state_publisher/joint_state_listener.h
-/home/chel/new_rmc_ws/src/robot_state_publisher/src/robot_state_publisher/joint_state_listener.h
+/home/chel/rmc_2019/rmc_2019_ws/src/robot_state_publisher/src/robot_state_publisher/joint_state_listener.h
 
 /opt/ros/kinetic/include/kdl/chain.hpp
 segment.hpp
@@ -1029,6 +1011,24 @@ ros/forwards.h
 /opt/ros/kinetic/include/ros/ros/forwards.h
 
 /opt/ros/kinetic/include/rosconsole/macros_generated.h
+
+/opt/ros/kinetic/include/sensor_msgs/JointState.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+std_msgs/Header.h
+-
 
 /opt/ros/kinetic/include/std_msgs/Header.h
 string

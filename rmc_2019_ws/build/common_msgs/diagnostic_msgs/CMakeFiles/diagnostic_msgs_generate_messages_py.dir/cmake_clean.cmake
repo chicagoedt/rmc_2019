@@ -1,12 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/diagnostic_msgs_generate_messages_py"
-  "/home/chel/new_rmc_ws/devel/lib/python2.7/dist-packages/diagnostic_msgs/msg/_DiagnosticStatus.py"
-  "/home/chel/new_rmc_ws/devel/lib/python2.7/dist-packages/diagnostic_msgs/msg/_KeyValue.py"
-  "/home/chel/new_rmc_ws/devel/lib/python2.7/dist-packages/diagnostic_msgs/msg/_DiagnosticArray.py"
-  "/home/chel/new_rmc_ws/devel/lib/python2.7/dist-packages/diagnostic_msgs/srv/_AddDiagnostics.py"
-  "/home/chel/new_rmc_ws/devel/lib/python2.7/dist-packages/diagnostic_msgs/srv/_SelfTest.py"
-  "/home/chel/new_rmc_ws/devel/lib/python2.7/dist-packages/diagnostic_msgs/msg/__init__.py"
-  "/home/chel/new_rmc_ws/devel/lib/python2.7/dist-packages/diagnostic_msgs/srv/__init__.py"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/lib/python2.7/dist-packages/diagnostic_msgs/msg/_DiagnosticArray.py"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/lib/python2.7/dist-packages/diagnostic_msgs/msg/_DiagnosticStatus.py"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/lib/python2.7/dist-packages/diagnostic_msgs/msg/_KeyValue.py"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/lib/python2.7/dist-packages/diagnostic_msgs/srv/_AddDiagnostics.py"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/lib/python2.7/dist-packages/diagnostic_msgs/srv/_SelfTest.py"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/lib/python2.7/dist-packages/diagnostic_msgs/msg/__init__.py"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/lib/python2.7/dist-packages/diagnostic_msgs/srv/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chel/new_rmc_ws/src
+CMAKE_SOURCE_DIR = /home/chel/rmc_2019/rmc_2019_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chel/new_rmc_ws/build
+CMAKE_BINARY_DIR = /home/chel/rmc_2019/rmc_2019_ws/build
 
 # Include any dependencies generated for this target.
 include aruco_ros/aruco/CMakeFiles/aruco.dir/depend.make
@@ -58,17 +58,17 @@ include aruco_ros/aruco/CMakeFiles/aruco.dir/progress.make
 include aruco_ros/aruco/CMakeFiles/aruco.dir/flags.make
 
 aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/arucofidmarkers.cpp.o: aruco_ros/aruco/CMakeFiles/aruco.dir/flags.make
-aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/arucofidmarkers.cpp.o: /home/chel/new_rmc_ws/src/aruco_ros/aruco/src/aruco/arucofidmarkers.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chel/new_rmc_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/arucofidmarkers.cpp.o"
-	cd /home/chel/new_rmc_ws/build/aruco_ros/aruco && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aruco.dir/src/aruco/arucofidmarkers.cpp.o -c /home/chel/new_rmc_ws/src/aruco_ros/aruco/src/aruco/arucofidmarkers.cpp
+aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/arucofidmarkers.cpp.o: /home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco/src/aruco/arucofidmarkers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chel/rmc_2019/rmc_2019_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/arucofidmarkers.cpp.o"
+	cd /home/chel/rmc_2019/rmc_2019_ws/build/aruco_ros/aruco && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aruco.dir/src/aruco/arucofidmarkers.cpp.o -c /home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco/src/aruco/arucofidmarkers.cpp
 
 aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/arucofidmarkers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aruco.dir/src/aruco/arucofidmarkers.cpp.i"
-	cd /home/chel/new_rmc_ws/build/aruco_ros/aruco && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chel/new_rmc_ws/src/aruco_ros/aruco/src/aruco/arucofidmarkers.cpp > CMakeFiles/aruco.dir/src/aruco/arucofidmarkers.cpp.i
+	cd /home/chel/rmc_2019/rmc_2019_ws/build/aruco_ros/aruco && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco/src/aruco/arucofidmarkers.cpp > CMakeFiles/aruco.dir/src/aruco/arucofidmarkers.cpp.i
 
 aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/arucofidmarkers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aruco.dir/src/aruco/arucofidmarkers.cpp.s"
-	cd /home/chel/new_rmc_ws/build/aruco_ros/aruco && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chel/new_rmc_ws/src/aruco_ros/aruco/src/aruco/arucofidmarkers.cpp -o CMakeFiles/aruco.dir/src/aruco/arucofidmarkers.cpp.s
+	cd /home/chel/rmc_2019/rmc_2019_ws/build/aruco_ros/aruco && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco/src/aruco/arucofidmarkers.cpp -o CMakeFiles/aruco.dir/src/aruco/arucofidmarkers.cpp.s
 
 aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/arucofidmarkers.cpp.o.requires:
 
@@ -82,17 +82,17 @@ aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/arucofidmarkers.cpp.o.provides.bu
 
 
 aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/cvdrawingutils.cpp.o: aruco_ros/aruco/CMakeFiles/aruco.dir/flags.make
-aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/cvdrawingutils.cpp.o: /home/chel/new_rmc_ws/src/aruco_ros/aruco/src/aruco/cvdrawingutils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chel/new_rmc_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/cvdrawingutils.cpp.o"
-	cd /home/chel/new_rmc_ws/build/aruco_ros/aruco && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aruco.dir/src/aruco/cvdrawingutils.cpp.o -c /home/chel/new_rmc_ws/src/aruco_ros/aruco/src/aruco/cvdrawingutils.cpp
+aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/cvdrawingutils.cpp.o: /home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco/src/aruco/cvdrawingutils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chel/rmc_2019/rmc_2019_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/cvdrawingutils.cpp.o"
+	cd /home/chel/rmc_2019/rmc_2019_ws/build/aruco_ros/aruco && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aruco.dir/src/aruco/cvdrawingutils.cpp.o -c /home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco/src/aruco/cvdrawingutils.cpp
 
 aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/cvdrawingutils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aruco.dir/src/aruco/cvdrawingutils.cpp.i"
-	cd /home/chel/new_rmc_ws/build/aruco_ros/aruco && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chel/new_rmc_ws/src/aruco_ros/aruco/src/aruco/cvdrawingutils.cpp > CMakeFiles/aruco.dir/src/aruco/cvdrawingutils.cpp.i
+	cd /home/chel/rmc_2019/rmc_2019_ws/build/aruco_ros/aruco && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco/src/aruco/cvdrawingutils.cpp > CMakeFiles/aruco.dir/src/aruco/cvdrawingutils.cpp.i
 
 aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/cvdrawingutils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aruco.dir/src/aruco/cvdrawingutils.cpp.s"
-	cd /home/chel/new_rmc_ws/build/aruco_ros/aruco && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chel/new_rmc_ws/src/aruco_ros/aruco/src/aruco/cvdrawingutils.cpp -o CMakeFiles/aruco.dir/src/aruco/cvdrawingutils.cpp.s
+	cd /home/chel/rmc_2019/rmc_2019_ws/build/aruco_ros/aruco && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco/src/aruco/cvdrawingutils.cpp -o CMakeFiles/aruco.dir/src/aruco/cvdrawingutils.cpp.s
 
 aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/cvdrawingutils.cpp.o.requires:
 
@@ -106,17 +106,17 @@ aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/cvdrawingutils.cpp.o.provides.bui
 
 
 aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/cameraparameters.cpp.o: aruco_ros/aruco/CMakeFiles/aruco.dir/flags.make
-aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/cameraparameters.cpp.o: /home/chel/new_rmc_ws/src/aruco_ros/aruco/src/aruco/cameraparameters.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chel/new_rmc_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/cameraparameters.cpp.o"
-	cd /home/chel/new_rmc_ws/build/aruco_ros/aruco && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aruco.dir/src/aruco/cameraparameters.cpp.o -c /home/chel/new_rmc_ws/src/aruco_ros/aruco/src/aruco/cameraparameters.cpp
+aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/cameraparameters.cpp.o: /home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco/src/aruco/cameraparameters.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chel/rmc_2019/rmc_2019_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/cameraparameters.cpp.o"
+	cd /home/chel/rmc_2019/rmc_2019_ws/build/aruco_ros/aruco && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aruco.dir/src/aruco/cameraparameters.cpp.o -c /home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco/src/aruco/cameraparameters.cpp
 
 aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/cameraparameters.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aruco.dir/src/aruco/cameraparameters.cpp.i"
-	cd /home/chel/new_rmc_ws/build/aruco_ros/aruco && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chel/new_rmc_ws/src/aruco_ros/aruco/src/aruco/cameraparameters.cpp > CMakeFiles/aruco.dir/src/aruco/cameraparameters.cpp.i
+	cd /home/chel/rmc_2019/rmc_2019_ws/build/aruco_ros/aruco && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco/src/aruco/cameraparameters.cpp > CMakeFiles/aruco.dir/src/aruco/cameraparameters.cpp.i
 
 aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/cameraparameters.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aruco.dir/src/aruco/cameraparameters.cpp.s"
-	cd /home/chel/new_rmc_ws/build/aruco_ros/aruco && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chel/new_rmc_ws/src/aruco_ros/aruco/src/aruco/cameraparameters.cpp -o CMakeFiles/aruco.dir/src/aruco/cameraparameters.cpp.s
+	cd /home/chel/rmc_2019/rmc_2019_ws/build/aruco_ros/aruco && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco/src/aruco/cameraparameters.cpp -o CMakeFiles/aruco.dir/src/aruco/cameraparameters.cpp.s
 
 aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/cameraparameters.cpp.o.requires:
 
@@ -130,17 +130,17 @@ aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/cameraparameters.cpp.o.provides.b
 
 
 aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/board.cpp.o: aruco_ros/aruco/CMakeFiles/aruco.dir/flags.make
-aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/board.cpp.o: /home/chel/new_rmc_ws/src/aruco_ros/aruco/src/aruco/board.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chel/new_rmc_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/board.cpp.o"
-	cd /home/chel/new_rmc_ws/build/aruco_ros/aruco && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aruco.dir/src/aruco/board.cpp.o -c /home/chel/new_rmc_ws/src/aruco_ros/aruco/src/aruco/board.cpp
+aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/board.cpp.o: /home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco/src/aruco/board.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chel/rmc_2019/rmc_2019_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/board.cpp.o"
+	cd /home/chel/rmc_2019/rmc_2019_ws/build/aruco_ros/aruco && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aruco.dir/src/aruco/board.cpp.o -c /home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco/src/aruco/board.cpp
 
 aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/board.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aruco.dir/src/aruco/board.cpp.i"
-	cd /home/chel/new_rmc_ws/build/aruco_ros/aruco && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chel/new_rmc_ws/src/aruco_ros/aruco/src/aruco/board.cpp > CMakeFiles/aruco.dir/src/aruco/board.cpp.i
+	cd /home/chel/rmc_2019/rmc_2019_ws/build/aruco_ros/aruco && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco/src/aruco/board.cpp > CMakeFiles/aruco.dir/src/aruco/board.cpp.i
 
 aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/board.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aruco.dir/src/aruco/board.cpp.s"
-	cd /home/chel/new_rmc_ws/build/aruco_ros/aruco && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chel/new_rmc_ws/src/aruco_ros/aruco/src/aruco/board.cpp -o CMakeFiles/aruco.dir/src/aruco/board.cpp.s
+	cd /home/chel/rmc_2019/rmc_2019_ws/build/aruco_ros/aruco && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco/src/aruco/board.cpp -o CMakeFiles/aruco.dir/src/aruco/board.cpp.s
 
 aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/board.cpp.o.requires:
 
@@ -154,17 +154,17 @@ aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/board.cpp.o.provides.build: aruco
 
 
 aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/marker.cpp.o: aruco_ros/aruco/CMakeFiles/aruco.dir/flags.make
-aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/marker.cpp.o: /home/chel/new_rmc_ws/src/aruco_ros/aruco/src/aruco/marker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chel/new_rmc_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/marker.cpp.o"
-	cd /home/chel/new_rmc_ws/build/aruco_ros/aruco && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aruco.dir/src/aruco/marker.cpp.o -c /home/chel/new_rmc_ws/src/aruco_ros/aruco/src/aruco/marker.cpp
+aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/marker.cpp.o: /home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco/src/aruco/marker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chel/rmc_2019/rmc_2019_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/marker.cpp.o"
+	cd /home/chel/rmc_2019/rmc_2019_ws/build/aruco_ros/aruco && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aruco.dir/src/aruco/marker.cpp.o -c /home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco/src/aruco/marker.cpp
 
 aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/marker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aruco.dir/src/aruco/marker.cpp.i"
-	cd /home/chel/new_rmc_ws/build/aruco_ros/aruco && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chel/new_rmc_ws/src/aruco_ros/aruco/src/aruco/marker.cpp > CMakeFiles/aruco.dir/src/aruco/marker.cpp.i
+	cd /home/chel/rmc_2019/rmc_2019_ws/build/aruco_ros/aruco && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco/src/aruco/marker.cpp > CMakeFiles/aruco.dir/src/aruco/marker.cpp.i
 
 aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/marker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aruco.dir/src/aruco/marker.cpp.s"
-	cd /home/chel/new_rmc_ws/build/aruco_ros/aruco && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chel/new_rmc_ws/src/aruco_ros/aruco/src/aruco/marker.cpp -o CMakeFiles/aruco.dir/src/aruco/marker.cpp.s
+	cd /home/chel/rmc_2019/rmc_2019_ws/build/aruco_ros/aruco && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco/src/aruco/marker.cpp -o CMakeFiles/aruco.dir/src/aruco/marker.cpp.s
 
 aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/marker.cpp.o.requires:
 
@@ -178,17 +178,17 @@ aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/marker.cpp.o.provides.build: aruc
 
 
 aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/boarddetector.cpp.o: aruco_ros/aruco/CMakeFiles/aruco.dir/flags.make
-aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/boarddetector.cpp.o: /home/chel/new_rmc_ws/src/aruco_ros/aruco/src/aruco/boarddetector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chel/new_rmc_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/boarddetector.cpp.o"
-	cd /home/chel/new_rmc_ws/build/aruco_ros/aruco && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aruco.dir/src/aruco/boarddetector.cpp.o -c /home/chel/new_rmc_ws/src/aruco_ros/aruco/src/aruco/boarddetector.cpp
+aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/boarddetector.cpp.o: /home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco/src/aruco/boarddetector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chel/rmc_2019/rmc_2019_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/boarddetector.cpp.o"
+	cd /home/chel/rmc_2019/rmc_2019_ws/build/aruco_ros/aruco && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aruco.dir/src/aruco/boarddetector.cpp.o -c /home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco/src/aruco/boarddetector.cpp
 
 aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/boarddetector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aruco.dir/src/aruco/boarddetector.cpp.i"
-	cd /home/chel/new_rmc_ws/build/aruco_ros/aruco && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chel/new_rmc_ws/src/aruco_ros/aruco/src/aruco/boarddetector.cpp > CMakeFiles/aruco.dir/src/aruco/boarddetector.cpp.i
+	cd /home/chel/rmc_2019/rmc_2019_ws/build/aruco_ros/aruco && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco/src/aruco/boarddetector.cpp > CMakeFiles/aruco.dir/src/aruco/boarddetector.cpp.i
 
 aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/boarddetector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aruco.dir/src/aruco/boarddetector.cpp.s"
-	cd /home/chel/new_rmc_ws/build/aruco_ros/aruco && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chel/new_rmc_ws/src/aruco_ros/aruco/src/aruco/boarddetector.cpp -o CMakeFiles/aruco.dir/src/aruco/boarddetector.cpp.s
+	cd /home/chel/rmc_2019/rmc_2019_ws/build/aruco_ros/aruco && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco/src/aruco/boarddetector.cpp -o CMakeFiles/aruco.dir/src/aruco/boarddetector.cpp.s
 
 aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/boarddetector.cpp.o.requires:
 
@@ -202,17 +202,17 @@ aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/boarddetector.cpp.o.provides.buil
 
 
 aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/markerdetector.cpp.o: aruco_ros/aruco/CMakeFiles/aruco.dir/flags.make
-aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/markerdetector.cpp.o: /home/chel/new_rmc_ws/src/aruco_ros/aruco/src/aruco/markerdetector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chel/new_rmc_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/markerdetector.cpp.o"
-	cd /home/chel/new_rmc_ws/build/aruco_ros/aruco && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aruco.dir/src/aruco/markerdetector.cpp.o -c /home/chel/new_rmc_ws/src/aruco_ros/aruco/src/aruco/markerdetector.cpp
+aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/markerdetector.cpp.o: /home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco/src/aruco/markerdetector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chel/rmc_2019/rmc_2019_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/markerdetector.cpp.o"
+	cd /home/chel/rmc_2019/rmc_2019_ws/build/aruco_ros/aruco && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aruco.dir/src/aruco/markerdetector.cpp.o -c /home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco/src/aruco/markerdetector.cpp
 
 aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/markerdetector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aruco.dir/src/aruco/markerdetector.cpp.i"
-	cd /home/chel/new_rmc_ws/build/aruco_ros/aruco && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chel/new_rmc_ws/src/aruco_ros/aruco/src/aruco/markerdetector.cpp > CMakeFiles/aruco.dir/src/aruco/markerdetector.cpp.i
+	cd /home/chel/rmc_2019/rmc_2019_ws/build/aruco_ros/aruco && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco/src/aruco/markerdetector.cpp > CMakeFiles/aruco.dir/src/aruco/markerdetector.cpp.i
 
 aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/markerdetector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aruco.dir/src/aruco/markerdetector.cpp.s"
-	cd /home/chel/new_rmc_ws/build/aruco_ros/aruco && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chel/new_rmc_ws/src/aruco_ros/aruco/src/aruco/markerdetector.cpp -o CMakeFiles/aruco.dir/src/aruco/markerdetector.cpp.s
+	cd /home/chel/rmc_2019/rmc_2019_ws/build/aruco_ros/aruco && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco/src/aruco/markerdetector.cpp -o CMakeFiles/aruco.dir/src/aruco/markerdetector.cpp.s
 
 aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/markerdetector.cpp.o.requires:
 
@@ -238,65 +238,65 @@ aruco_OBJECTS = \
 # External object files for target aruco
 aruco_EXTERNAL_OBJECTS =
 
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/arucofidmarkers.cpp.o
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/cvdrawingutils.cpp.o
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/cameraparameters.cpp.o
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/board.cpp.o
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/marker.cpp.o
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/boarddetector.cpp.o
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/markerdetector.cpp.o
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: aruco_ros/aruco/CMakeFiles/aruco.dir/build.make
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stitching3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_superres3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videostab3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_aruco3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bgsegm3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bioinspired3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ccalib3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_cvv3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dpm3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_face3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_fuzzy3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_hdf3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_img_hash3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_line_descriptor3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_optflow3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_reg3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_rgbd3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_saliency3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stereo3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_structured_light3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_surface_matching3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_tracking3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xfeatures2d3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ximgproc3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xobjdetect3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xphoto3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_shape3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_photo3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_datasets3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_plot3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_text3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dnn3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ml3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_video3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_calib3d3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_features2d3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_highgui3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videoio3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_viz3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_phase_unwrapping3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_flann3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_objdetect3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
-/home/chel/new_rmc_ws/devel/lib/libaruco.so: aruco_ros/aruco/CMakeFiles/aruco.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chel/new_rmc_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX shared library /home/chel/new_rmc_ws/devel/lib/libaruco.so"
-	cd /home/chel/new_rmc_ws/build/aruco_ros/aruco && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aruco.dir/link.txt --verbose=$(VERBOSE)
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/arucofidmarkers.cpp.o
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/cvdrawingutils.cpp.o
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/cameraparameters.cpp.o
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/board.cpp.o
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/marker.cpp.o
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/boarddetector.cpp.o
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: aruco_ros/aruco/CMakeFiles/aruco.dir/src/aruco/markerdetector.cpp.o
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: aruco_ros/aruco/CMakeFiles/aruco.dir/build.make
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stitching3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_superres3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videostab3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_aruco3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bgsegm3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bioinspired3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ccalib3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_cvv3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dpm3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_face3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_fuzzy3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_hdf3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_img_hash3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_line_descriptor3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_optflow3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_reg3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_rgbd3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_saliency3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stereo3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_structured_light3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_surface_matching3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_tracking3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xfeatures2d3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ximgproc3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xobjdetect3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xphoto3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_shape3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_photo3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_datasets3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_plot3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_text3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dnn3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ml3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_video3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_calib3d3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_features2d3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_highgui3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videoio3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_viz3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_phase_unwrapping3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_flann3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_objdetect3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
+/home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so: aruco_ros/aruco/CMakeFiles/aruco.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chel/rmc_2019/rmc_2019_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX shared library /home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so"
+	cd /home/chel/rmc_2019/rmc_2019_ws/build/aruco_ros/aruco && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aruco.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-aruco_ros/aruco/CMakeFiles/aruco.dir/build: /home/chel/new_rmc_ws/devel/lib/libaruco.so
+aruco_ros/aruco/CMakeFiles/aruco.dir/build: /home/chel/rmc_2019/rmc_2019_ws/devel/lib/libaruco.so
 
 .PHONY : aruco_ros/aruco/CMakeFiles/aruco.dir/build
 
@@ -311,10 +311,10 @@ aruco_ros/aruco/CMakeFiles/aruco.dir/requires: aruco_ros/aruco/CMakeFiles/aruco.
 .PHONY : aruco_ros/aruco/CMakeFiles/aruco.dir/requires
 
 aruco_ros/aruco/CMakeFiles/aruco.dir/clean:
-	cd /home/chel/new_rmc_ws/build/aruco_ros/aruco && $(CMAKE_COMMAND) -P CMakeFiles/aruco.dir/cmake_clean.cmake
+	cd /home/chel/rmc_2019/rmc_2019_ws/build/aruco_ros/aruco && $(CMAKE_COMMAND) -P CMakeFiles/aruco.dir/cmake_clean.cmake
 .PHONY : aruco_ros/aruco/CMakeFiles/aruco.dir/clean
 
 aruco_ros/aruco/CMakeFiles/aruco.dir/depend:
-	cd /home/chel/new_rmc_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chel/new_rmc_ws/src /home/chel/new_rmc_ws/src/aruco_ros/aruco /home/chel/new_rmc_ws/build /home/chel/new_rmc_ws/build/aruco_ros/aruco /home/chel/new_rmc_ws/build/aruco_ros/aruco/CMakeFiles/aruco.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chel/rmc_2019/rmc_2019_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chel/rmc_2019/rmc_2019_ws/src /home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco /home/chel/rmc_2019/rmc_2019_ws/build /home/chel/rmc_2019/rmc_2019_ws/build/aruco_ros/aruco /home/chel/rmc_2019/rmc_2019_ws/build/aruco_ros/aruco/CMakeFiles/aruco.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : aruco_ros/aruco/CMakeFiles/aruco.dir/depend
 

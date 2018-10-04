@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/diagnostic_msgs_generate_messages_lisp"
-  "/home/chel/new_rmc_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg/DiagnosticStatus.lisp"
-  "/home/chel/new_rmc_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg/KeyValue.lisp"
-  "/home/chel/new_rmc_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg/DiagnosticArray.lisp"
-  "/home/chel/new_rmc_ws/devel/share/common-lisp/ros/diagnostic_msgs/srv/AddDiagnostics.lisp"
-  "/home/chel/new_rmc_ws/devel/share/common-lisp/ros/diagnostic_msgs/srv/SelfTest.lisp"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg/DiagnosticArray.lisp"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg/DiagnosticStatus.lisp"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/diagnostic_msgs/msg/KeyValue.lisp"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/diagnostic_msgs/srv/AddDiagnostics.lisp"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/diagnostic_msgs/srv/SelfTest.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

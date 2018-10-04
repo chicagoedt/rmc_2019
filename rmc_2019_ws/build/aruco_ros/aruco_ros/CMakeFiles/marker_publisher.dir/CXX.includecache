@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/chel/new_rmc_ws/devel/include/aruco_msgs/Marker.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/aruco_msgs/Marker.h
 string
 -
 vector
@@ -26,7 +26,7 @@ std_msgs/Header.h
 geometry_msgs/PoseWithCovariance.h
 -
 
-/home/chel/new_rmc_ws/devel/include/aruco_msgs/MarkerArray.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/aruco_msgs/MarkerArray.h
 string
 -
 vector
@@ -46,7 +46,7 @@ std_msgs/Header.h
 aruco_msgs/Marker.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/Point.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/Point.h
 string
 -
 vector
@@ -62,7 +62,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/Point32.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/Point32.h
 string
 -
 vector
@@ -78,7 +78,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/PointStamped.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/PointStamped.h
 string
 -
 vector
@@ -98,7 +98,7 @@ std_msgs/Header.h
 geometry_msgs/Point.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/Pose.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/Pose.h
 string
 -
 vector
@@ -118,7 +118,7 @@ geometry_msgs/Point.h
 geometry_msgs/Quaternion.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/PoseStamped.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/PoseStamped.h
 string
 -
 vector
@@ -138,7 +138,7 @@ std_msgs/Header.h
 geometry_msgs/Pose.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/PoseWithCovariance.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/PoseWithCovariance.h
 string
 -
 vector
@@ -156,7 +156,7 @@ ros/message_operations.h
 geometry_msgs/Pose.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/Quaternion.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/Quaternion.h
 string
 -
 vector
@@ -172,7 +172,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/QuaternionStamped.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/QuaternionStamped.h
 string
 -
 vector
@@ -192,7 +192,7 @@ std_msgs/Header.h
 geometry_msgs/Quaternion.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/Transform.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/Transform.h
 string
 -
 vector
@@ -212,7 +212,7 @@ geometry_msgs/Vector3.h
 geometry_msgs/Quaternion.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/TransformStamped.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/TransformStamped.h
 string
 -
 vector
@@ -232,7 +232,7 @@ std_msgs/Header.h
 geometry_msgs/Transform.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/Twist.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/Twist.h
 string
 -
 vector
@@ -252,7 +252,7 @@ geometry_msgs/Vector3.h
 geometry_msgs/Vector3.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/TwistStamped.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/TwistStamped.h
 string
 -
 vector
@@ -272,7 +272,7 @@ std_msgs/Header.h
 geometry_msgs/Twist.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/Vector3.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/Vector3.h
 string
 -
 vector
@@ -288,7 +288,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/chel/new_rmc_ws/devel/include/geometry_msgs/Vector3Stamped.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/Vector3Stamped.h
 string
 -
 vector
@@ -308,7 +308,7 @@ std_msgs/Header.h
 geometry_msgs/Vector3.h
 -
 
-/home/chel/new_rmc_ws/devel/include/sensor_msgs/CameraInfo.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/sensor_msgs/CameraInfo.h
 string
 -
 vector
@@ -328,7 +328,7 @@ std_msgs/Header.h
 sensor_msgs/RegionOfInterest.h
 -
 
-/home/chel/new_rmc_ws/devel/include/sensor_msgs/ChannelFloat32.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/sensor_msgs/ChannelFloat32.h
 string
 -
 vector
@@ -344,25 +344,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/chel/new_rmc_ws/devel/include/sensor_msgs/CompressedImage.h
-string
--
-vector
--
-map
--
-ros/types.h
--
-ros/serialization.h
--
-ros/builtin_message_traits.h
--
-ros/message_operations.h
--
-std_msgs/Header.h
--
-
-/home/chel/new_rmc_ws/devel/include/sensor_msgs/Image.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/sensor_msgs/CompressedImage.h
 string
 -
 vector
@@ -380,7 +362,25 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chel/new_rmc_ws/devel/include/sensor_msgs/PointCloud.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/sensor_msgs/Image.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+std_msgs/Header.h
+-
+
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/sensor_msgs/PointCloud.h
 string
 -
 vector
@@ -402,7 +402,7 @@ geometry_msgs/Point32.h
 sensor_msgs/ChannelFloat32.h
 -
 
-/home/chel/new_rmc_ws/devel/include/sensor_msgs/RegionOfInterest.h
+/home/chel/rmc_2019/rmc_2019_ws/devel/include/sensor_msgs/RegionOfInterest.h
 string
 -
 vector
@@ -418,7 +418,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/chel/new_rmc_ws/src/aruco_ros/aruco/include/aruco/aruco.h
+/home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco/include/aruco/aruco.h
 aruco/markerdetector.h
 -
 aruco/boarddetector.h
@@ -426,7 +426,7 @@ aruco/boarddetector.h
 aruco/cvdrawingutils.h
 -
 
-/home/chel/new_rmc_ws/src/aruco_ros/aruco/include/aruco/board.h
+/home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco/include/aruco/board.h
 opencv2/opencv.hpp
 -
 string
@@ -438,7 +438,7 @@ aruco/exports.h
 aruco/marker.h
 -
 
-/home/chel/new_rmc_ws/src/aruco_ros/aruco/include/aruco/boarddetector.h
+/home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco/include/aruco/boarddetector.h
 opencv2/opencv.hpp
 -
 aruco/exports.h
@@ -450,7 +450,7 @@ aruco/cameraparameters.h
 aruco/markerdetector.h
 -
 
-/home/chel/new_rmc_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h
+/home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h
 aruco/exports.h
 -
 opencv2/opencv.hpp
@@ -458,15 +458,15 @@ opencv2/opencv.hpp
 string
 -
 
-/home/chel/new_rmc_ws/src/aruco_ros/aruco/include/aruco/cvdrawingutils.h
+/home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco/include/aruco/cvdrawingutils.h
 aruco/exports.h
 -
 aruco/aruco.h
 -
 
-/home/chel/new_rmc_ws/src/aruco_ros/aruco/include/aruco/exports.h
+/home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco/include/aruco/exports.h
 
-/home/chel/new_rmc_ws/src/aruco_ros/aruco/include/aruco/marker.h
+/home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco/include/aruco/marker.h
 vector
 -
 iostream
@@ -478,7 +478,7 @@ aruco/exports.h
 aruco/cameraparameters.h
 -
 
-/home/chel/new_rmc_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h
+/home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h
 opencv2/opencv.hpp
 -
 cstdio
@@ -492,7 +492,7 @@ aruco/exports.h
 aruco/marker.h
 -
 
-/home/chel/new_rmc_ws/src/aruco_ros/aruco_ros/include/aruco_ros/aruco_ros_utils.h
+/home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco_ros/include/aruco_ros/aruco_ros_utils.h
 aruco/aruco.h
 -
 sensor_msgs/CameraInfo.h
@@ -500,7 +500,7 @@ sensor_msgs/CameraInfo.h
 tf/transform_datatypes.h
 -
 
-/home/chel/new_rmc_ws/src/aruco_ros/aruco_ros/src/aruco_ros_utils.cpp
+/home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco_ros/src/aruco_ros_utils.cpp
 aruco_ros/aruco_ros_utils.h
 -
 ros/console.h
@@ -512,7 +512,7 @@ iostream
 tf/transform_datatypes.h
 -
 
-/home/chel/new_rmc_ws/src/aruco_ros/aruco_ros/src/marker_publish.cpp
+/home/chel/rmc_2019/rmc_2019_ws/src/aruco_ros/aruco_ros/src/marker_publish.cpp
 iostream
 -
 aruco/aruco.h
@@ -536,7 +536,7 @@ tf/transform_listener.h
 std_msgs/UInt32MultiArray.h
 -
 
-/home/chel/new_rmc_ws/src/common_msgs/sensor_msgs/include/sensor_msgs/image_encodings.h
+/home/chel/rmc_2019/rmc_2019_ws/src/common_msgs/sensor_msgs/include/sensor_msgs/image_encodings.h
 cstdlib
 -
 stdexcept

@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/actionlib_msgs_generate_messages_cpp"
-  "/home/chel/new_rmc_ws/devel/include/actionlib_msgs/GoalStatus.h"
-  "/home/chel/new_rmc_ws/devel/include/actionlib_msgs/GoalStatusArray.h"
-  "/home/chel/new_rmc_ws/devel/include/actionlib_msgs/GoalID.h"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/include/actionlib_msgs/GoalStatus.h"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/include/actionlib_msgs/GoalStatusArray.h"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/include/actionlib_msgs/GoalID.h"
 )
 
 # Per-language clean rules from dependency scanning.

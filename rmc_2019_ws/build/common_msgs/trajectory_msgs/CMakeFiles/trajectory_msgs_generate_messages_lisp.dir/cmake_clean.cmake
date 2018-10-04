@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/trajectory_msgs_generate_messages_lisp"
-  "/home/chel/new_rmc_ws/devel/share/common-lisp/ros/trajectory_msgs/msg/JointTrajectoryPoint.lisp"
-  "/home/chel/new_rmc_ws/devel/share/common-lisp/ros/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.lisp"
-  "/home/chel/new_rmc_ws/devel/share/common-lisp/ros/trajectory_msgs/msg/JointTrajectory.lisp"
-  "/home/chel/new_rmc_ws/devel/share/common-lisp/ros/trajectory_msgs/msg/MultiDOFJointTrajectory.lisp"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.lisp"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/trajectory_msgs/msg/JointTrajectoryPoint.lisp"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/trajectory_msgs/msg/MultiDOFJointTrajectory.lisp"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/trajectory_msgs/msg/JointTrajectory.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/aruco_msgs_generate_messages_lisp"
-  "/home/chel/new_rmc_ws/devel/share/common-lisp/ros/aruco_msgs/msg/Marker.lisp"
-  "/home/chel/new_rmc_ws/devel/share/common-lisp/ros/aruco_msgs/msg/MarkerArray.lisp"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/aruco_msgs/msg/MarkerArray.lisp"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/aruco_msgs/msg/Marker.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

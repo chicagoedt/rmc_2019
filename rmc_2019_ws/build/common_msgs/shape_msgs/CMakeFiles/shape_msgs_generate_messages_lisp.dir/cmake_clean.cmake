@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/shape_msgs_generate_messages_lisp"
-  "/home/chel/new_rmc_ws/devel/share/common-lisp/ros/shape_msgs/msg/SolidPrimitive.lisp"
-  "/home/chel/new_rmc_ws/devel/share/common-lisp/ros/shape_msgs/msg/Mesh.lisp"
-  "/home/chel/new_rmc_ws/devel/share/common-lisp/ros/shape_msgs/msg/Plane.lisp"
-  "/home/chel/new_rmc_ws/devel/share/common-lisp/ros/shape_msgs/msg/MeshTriangle.lisp"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/shape_msgs/msg/Plane.lisp"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/shape_msgs/msg/SolidPrimitive.lisp"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/shape_msgs/msg/MeshTriangle.lisp"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/shape_msgs/msg/Mesh.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

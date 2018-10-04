@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/chel/new_rmc_ws/src/robot_state_publisher/include/robot_state_publisher/robot_state_publisher.h
+/home/chel/rmc_2019/rmc_2019_ws/src/robot_state_publisher/include/robot_state_publisher/robot_state_publisher.h
 ros/ros.h
 -
 boost/scoped_ptr.hpp
@@ -26,13 +26,13 @@ kdl/segment.hpp
 kdl/tree.hpp
 -
 
-/home/chel/new_rmc_ws/src/robot_state_publisher/include/robot_state_publisher/treefksolverposfull_recursive.hpp
+/home/chel/rmc_2019/rmc_2019_ws/src/robot_state_publisher/include/robot_state_publisher/treefksolverposfull_recursive.hpp
 kdl/tree.hpp
 -
 tf2/transform_datatypes.h
 -
 
-/home/chel/new_rmc_ws/src/robot_state_publisher/src/robot_state_publisher.cpp
+/home/chel/rmc_2019/rmc_2019_ws/src/robot_state_publisher/src/robot_state_publisher.cpp
 kdl/frames_io.hpp
 -
 geometry_msgs/TransformStamped.h
@@ -40,9 +40,9 @@ geometry_msgs/TransformStamped.h
 tf2_kdl/tf2_kdl.h
 -
 robot_state_publisher/robot_state_publisher.h
-/home/chel/new_rmc_ws/src/robot_state_publisher/src/robot_state_publisher/robot_state_publisher.h
+/home/chel/rmc_2019/rmc_2019_ws/src/robot_state_publisher/src/robot_state_publisher/robot_state_publisher.h
 
-/home/chel/new_rmc_ws/src/robot_state_publisher/src/treefksolverposfull_recursive.cpp
+/home/chel/rmc_2019/rmc_2019_ws/src/robot_state_publisher/src/treefksolverposfull_recursive.cpp
 iostream
 -
 cstdio
@@ -50,7 +50,7 @@ cstdio
 ros/ros.h
 -
 robot_state_publisher/treefksolverposfull_recursive.hpp
-/home/chel/new_rmc_ws/src/robot_state_publisher/src/robot_state_publisher/treefksolverposfull_recursive.hpp
+/home/chel/rmc_2019/rmc_2019_ws/src/robot_state_publisher/src/robot_state_publisher/treefksolverposfull_recursive.hpp
 
 /opt/ros/kinetic/include/geometry_msgs/Point.h
 string

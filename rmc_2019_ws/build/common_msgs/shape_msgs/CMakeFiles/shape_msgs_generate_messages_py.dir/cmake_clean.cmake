@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/shape_msgs_generate_messages_py"
-  "/home/chel/new_rmc_ws/devel/lib/python2.7/dist-packages/shape_msgs/msg/_SolidPrimitive.py"
-  "/home/chel/new_rmc_ws/devel/lib/python2.7/dist-packages/shape_msgs/msg/_Mesh.py"
-  "/home/chel/new_rmc_ws/devel/lib/python2.7/dist-packages/shape_msgs/msg/_Plane.py"
-  "/home/chel/new_rmc_ws/devel/lib/python2.7/dist-packages/shape_msgs/msg/_MeshTriangle.py"
-  "/home/chel/new_rmc_ws/devel/lib/python2.7/dist-packages/shape_msgs/msg/__init__.py"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/lib/python2.7/dist-packages/shape_msgs/msg/_Plane.py"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/lib/python2.7/dist-packages/shape_msgs/msg/_SolidPrimitive.py"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/lib/python2.7/dist-packages/shape_msgs/msg/_MeshTriangle.py"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/lib/python2.7/dist-packages/shape_msgs/msg/_Mesh.py"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/lib/python2.7/dist-packages/shape_msgs/msg/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

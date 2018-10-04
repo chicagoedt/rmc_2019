@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11 -Wall -Wextra
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"robot_state_publisher\"
 
-CXX_INCLUDES = -isystem /usr/include/eigen3 -I/home/chel/new_rmc_ws/src/robot_state_publisher/include -I/home/chel/new_rmc_ws/devel/include -I/home/chel/new_rmc_ws/src/common_msgs/sensor_msgs/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -isystem /usr/include/eigen3 -I/home/chel/rmc_2019/rmc_2019_ws/src/robot_state_publisher/include -I/home/chel/rmc_2019/rmc_2019_ws/devel/include -I/home/chel/rmc_2019/rmc_2019_ws/src/common_msgs/sensor_msgs/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

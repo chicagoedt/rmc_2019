@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/aruco_msgs_generate_messages_eus"
-  "/home/chel/new_rmc_ws/devel/share/roseus/ros/aruco_msgs/msg/Marker.l"
-  "/home/chel/new_rmc_ws/devel/share/roseus/ros/aruco_msgs/msg/MarkerArray.l"
-  "/home/chel/new_rmc_ws/devel/share/roseus/ros/aruco_msgs/manifest.l"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/share/roseus/ros/aruco_msgs/msg/MarkerArray.l"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/share/roseus/ros/aruco_msgs/msg/Marker.l"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/share/roseus/ros/aruco_msgs/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.

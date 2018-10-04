@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/actionlib_msgs_generate_messages_lisp"
-  "/home/chel/new_rmc_ws/devel/share/common-lisp/ros/actionlib_msgs/msg/GoalStatus.lisp"
-  "/home/chel/new_rmc_ws/devel/share/common-lisp/ros/actionlib_msgs/msg/GoalStatusArray.lisp"
-  "/home/chel/new_rmc_ws/devel/share/common-lisp/ros/actionlib_msgs/msg/GoalID.lisp"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/actionlib_msgs/msg/GoalStatus.lisp"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/actionlib_msgs/msg/GoalStatusArray.lisp"
+  "/home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp/ros/actionlib_msgs/msg/GoalID.lisp"
 )
 
 # Per-language clean rules from dependency scanning.
