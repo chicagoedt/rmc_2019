@@ -3,6 +3,7 @@
 To make this workspace compatible for your Ubuntu 16.04 user, run the following commands (bash script).
 
 chmod +x ws_setup.bash
+
 ./ws_setup.bash <user_name>
 
 where <user_name> is your linux user name.
