@@ -12,7 +12,8 @@ These should be apparent through error messages during catkin_make.
 
 To run the simulation enter the commands:
 
-source devel/setup.bsah
+source devel/setup.bash
+
 roslaunch new_robot eugene_robot.launch
 
 To control the robot run:
