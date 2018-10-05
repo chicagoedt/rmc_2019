@@ -8,7 +8,7 @@ chmod +x ws_setup.bash
 
 where <user_name> is your linux user name.
 After this step, you will have to install any missing ROS packages or gazebo plugins. 
-These should be apparent through error messages during catkin_make.
+These should be apparent through error messages during catkin_make. After everything needed is installed, catkin_make may need to be ran several times (~2-3) before the workspace is ready.
 
 To run the simulation enter the commands:
 
