@@ -3,6 +3,10 @@
 
 depthimage_to_laserscan/CMakeFiles/DepthImageToLaserScanROS.dir/src/DepthImageToLaserScanROS.cpp.o
  /home/chel/rmc_2019/rmc_2019_ws/devel/include/depthimage_to_laserscan/DepthConfig.h
+ /home/chel/rmc_2019/rmc_2019_ws/devel/include/sensor_msgs/CameraInfo.h
+ /home/chel/rmc_2019/rmc_2019_ws/devel/include/sensor_msgs/Image.h
+ /home/chel/rmc_2019/rmc_2019_ws/devel/include/sensor_msgs/LaserScan.h
+ /home/chel/rmc_2019/rmc_2019_ws/devel/include/sensor_msgs/RegionOfInterest.h
  /home/chel/rmc_2019/rmc_2019_ws/src/common_msgs/sensor_msgs/include/sensor_msgs/image_encodings.h
  /home/chel/rmc_2019/rmc_2019_ws/src/depthimage_to_laserscan/include/depthimage_to_laserscan/DepthImageToLaserScan.h
  /home/chel/rmc_2019/rmc_2019_ws/src/depthimage_to_laserscan/include/depthimage_to_laserscan/DepthImageToLaserScanROS.h
@@ -222,10 +226,6 @@ depthimage_to_laserscan/CMakeFiles/DepthImageToLaserScanROS.dir/src/DepthImageTo
  /opt/ros/kinetic/include/ros/wall_timer.h
  /opt/ros/kinetic/include/ros/wall_timer_options.h
  /opt/ros/kinetic/include/rosconsole/macros_generated.h
- /opt/ros/kinetic/include/sensor_msgs/CameraInfo.h
- /opt/ros/kinetic/include/sensor_msgs/Image.h
- /opt/ros/kinetic/include/sensor_msgs/LaserScan.h
- /opt/ros/kinetic/include/sensor_msgs/RegionOfInterest.h
  /opt/ros/kinetic/include/std_msgs/Header.h
  /opt/ros/kinetic/include/xmlrpcpp/XmlRpcDecl.h
  /opt/ros/kinetic/include/xmlrpcpp/XmlRpcValue.h

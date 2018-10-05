@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/chel/rmc_2019/rmc_2019_ws/build
 include common_msgs/sensor_msgs/test/CMakeFiles/_run_tests_sensor_msgs_gtest_sensor_msgs_test.dir/progress.make
 
 common_msgs/sensor_msgs/test/CMakeFiles/_run_tests_sensor_msgs_gtest_sensor_msgs_test:
-	cd /home/chel/rmc_2019/rmc_2019_ws/build/common_msgs/sensor_msgs/test && ../../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/run_tests.py /home/chel/rmc_2019/rmc_2019_ws/build/test_results/sensor_msgs/gtest-sensor_msgs_test.xml /home/chel/rmc_2019/rmc_2019_ws/devel/lib/sensor_msgs/sensor_msgs_test\ --gtest_output=xml:/home/chel/rmc_2019/rmc_2019_ws/build/test_results/sensor_msgs/gtest-sensor_msgs_test.xml
+	cd /home/chel/rmc_2019/rmc_2019_ws/build/common_msgs/sensor_msgs/test && ../../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/run_tests.py /home/chel/rmc_2019/rmc_2019_ws/build/test_results/sensor_msgs/gtest-sensor_msgs_test.xml "/home/chel/rmc_2019/rmc_2019_ws/devel/lib/sensor_msgs/sensor_msgs_test --gtest_output=xml:/home/chel/rmc_2019/rmc_2019_ws/build/test_results/sensor_msgs/gtest-sensor_msgs_test.xml"
 
 _run_tests_sensor_msgs_gtest_sensor_msgs_test: common_msgs/sensor_msgs/test/CMakeFiles/_run_tests_sensor_msgs_gtest_sensor_msgs_test
 _run_tests_sensor_msgs_gtest_sensor_msgs_test: common_msgs/sensor_msgs/test/CMakeFiles/_run_tests_sensor_msgs_gtest_sensor_msgs_test.dir/build.make

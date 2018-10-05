@@ -7,7 +7,8 @@
 # new environment variables
 
 # modified environment variables
+export CMAKE_PREFIX_PATH="/home/chel/rmc_2019/rmc_2019_ws/devel:$CMAKE_PREFIX_PATH"
 export PKG_CONFIG_PATH="/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig:/usr/local/lib/pkgconfig"
 export PWD="/home/chel/rmc_2019/rmc_2019_ws/build"
-export PYTHONPATH="/opt/ros/kinetic/lib/python2.7/dist-packages"
-export ROS_PACKAGE_PATH="/home/chel/rmc_2019/rmc_2019_ws/src:/opt/ros/kinetic/share"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/chel/rmc_2019/rmc_2019_ws/devel/share/common-lisp"
+export ROS_PACKAGE_PATH="/home/chel/rmc_2019/rmc_2019_ws/src:$ROS_PACKAGE_PATH"

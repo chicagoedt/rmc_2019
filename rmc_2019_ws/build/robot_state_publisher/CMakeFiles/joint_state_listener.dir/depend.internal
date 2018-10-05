@@ -14,6 +14,7 @@ robot_state_publisher/CMakeFiles/joint_state_listener.dir/src/joint_state_listen
  /home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/TwistStamped.h
  /home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/Vector3.h
  /home/chel/rmc_2019/rmc_2019_ws/devel/include/geometry_msgs/Vector3Stamped.h
+ /home/chel/rmc_2019/rmc_2019_ws/devel/include/sensor_msgs/JointState.h
  /home/chel/rmc_2019/rmc_2019_ws/src/robot_state_publisher/include/robot_state_publisher/joint_state_listener.h
  /home/chel/rmc_2019/rmc_2019_ws/src/robot_state_publisher/include/robot_state_publisher/robot_state_publisher.h
  /home/chel/rmc_2019/rmc_2019_ws/src/robot_state_publisher/src/joint_state_listener.cpp
@@ -86,7 +87,6 @@ robot_state_publisher/CMakeFiles/joint_state_listener.dir/src/joint_state_listen
  /opt/ros/kinetic/include/ros/wall_timer.h
  /opt/ros/kinetic/include/ros/wall_timer_options.h
  /opt/ros/kinetic/include/rosconsole/macros_generated.h
- /opt/ros/kinetic/include/sensor_msgs/JointState.h
  /opt/ros/kinetic/include/std_msgs/Header.h
  /opt/ros/kinetic/include/tf/LinearMath/Matrix3x3.h
  /opt/ros/kinetic/include/tf/LinearMath/MinMax.h
