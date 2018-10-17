@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/new_robot_generate_messages_cpp"
-  "/home/chel/rmc_2019/rmc_2019_ws/devel/include/new_robot/Docking.h"
+  "/home/arshad/rmc_2019/rmc_2019_ws/devel/include/new_robot/Docking.h"
 )
 
 # Per-language clean rules from dependency scanning.

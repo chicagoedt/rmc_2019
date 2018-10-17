@@ -67,14 +67,14 @@ set(state_machine_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(state_machine_SOURCE_PREFIX /home/chel/rmc_2019/rmc_2019_ws/src/state_machine)
-  set(state_machine_DEVEL_PREFIX /home/chel/rmc_2019/rmc_2019_ws/devel)
+  set(state_machine_SOURCE_PREFIX /home/arshad/rmc_2019/rmc_2019_ws/src/state_machine)
+  set(state_machine_DEVEL_PREFIX /home/arshad/rmc_2019/rmc_2019_ws/devel)
   set(state_machine_INSTALL_PREFIX "")
   set(state_machine_PREFIX ${state_machine_DEVEL_PREFIX})
 else()
   set(state_machine_SOURCE_PREFIX "")
   set(state_machine_DEVEL_PREFIX "")
-  set(state_machine_INSTALL_PREFIX /home/chel/rmc_2019/rmc_2019_ws/install)
+  set(state_machine_INSTALL_PREFIX /home/arshad/rmc_2019/rmc_2019_ws/install)
   set(state_machine_PREFIX ${state_machine_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(state_machine_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/chel/rmc_2019/rmc_2019_ws/src/state_machine/include " STREQUAL " ")
+if(NOT "/home/arshad/rmc_2019/rmc_2019_ws/src/state_machine/include " STREQUAL " ")
   set(state_machine_INCLUDE_DIRS "")
-  set(_include_dirs "/home/chel/rmc_2019/rmc_2019_ws/src/state_machine/include")
+  set(_include_dirs "/home/arshad/rmc_2019/rmc_2019_ws/src/state_machine/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/chel/rmc_2019/rmc_2019_ws/src/state_machine/include " STREQUAL " "
         message(FATAL_ERROR "Project 'state_machine' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'state_machine' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/chel/rmc_2019/rmc_2019_ws/src/state_machine/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'state_machine' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/arshad/rmc_2019/rmc_2019_ws/src/state_machine/${idir}'.  ${_report}")
     endif()
     _list_append_unique(state_machine_INCLUDE_DIRS ${include})
   endforeach()
@@ -129,7 +129,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/chel/rmc_2019/rmc_2019_ws/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/arshad/rmc_2019/rmc_2019_ws/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

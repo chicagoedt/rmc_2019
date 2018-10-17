@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"state_machine\"
 
-CXX_INCLUDES = -I/home/chel/rmc_2019/rmc_2019_ws/src/state_machine/include -I/home/chel/rmc_2019/rmc_2019_ws/devel/include -I/home/chel/rmc_2019/rmc_2019_ws/src/common_msgs/sensor_msgs/include -I/home/chel/rmc_2019/rmc_2019_ws/src/robot_state_publisher/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 
+CXX_INCLUDES = -I/home/arshad/rmc_2019/rmc_2019_ws/src/state_machine/include -I/home/arshad/rmc_2019/rmc_2019_ws/devel/include -I/home/arshad/rmc_2019/rmc_2019_ws/src/new_robot/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 
 

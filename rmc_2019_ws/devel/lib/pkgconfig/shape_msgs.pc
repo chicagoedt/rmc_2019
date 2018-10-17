@@ -1,8 +1,0 @@
-prefix=/home/chel/rmc_2019/rmc_2019_ws/devel
-
-Name: shape_msgs
-Description: Description of shape_msgs
-Version: 1.12.6
-Cflags: -I/home/chel/rmc_2019/rmc_2019_ws/devel/include
-Libs: -L/home/chel/rmc_2019/rmc_2019_ws/devel/lib 
-Requires: geometry_msgs message_runtime std_msgs

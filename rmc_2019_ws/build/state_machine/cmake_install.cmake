@@ -1,8 +1,8 @@
-# Install script for directory: /home/chel/rmc_2019/rmc_2019_ws/src/state_machine
+# Install script for directory: /home/arshad/rmc_2019/rmc_2019_ws/src/state_machine
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/chel/rmc_2019/rmc_2019_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/arshad/rmc_2019/rmc_2019_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/chel/rmc_2019/rmc_2019_ws/build/state_machine/catkin_generated/installspace/state_machine.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/arshad/rmc_2019/rmc_2019_ws/build/state_machine/catkin_generated/installspace/state_machine.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/state_machine/cmake" TYPE FILE FILES
-    "/home/chel/rmc_2019/rmc_2019_ws/build/state_machine/catkin_generated/installspace/state_machineConfig.cmake"
-    "/home/chel/rmc_2019/rmc_2019_ws/build/state_machine/catkin_generated/installspace/state_machineConfig-version.cmake"
+    "/home/arshad/rmc_2019/rmc_2019_ws/build/state_machine/catkin_generated/installspace/state_machineConfig.cmake"
+    "/home/arshad/rmc_2019/rmc_2019_ws/build/state_machine/catkin_generated/installspace/state_machineConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/state_machine" TYPE FILE FILES "/home/chel/rmc_2019/rmc_2019_ws/src/state_machine/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/state_machine" TYPE FILE FILES "/home/arshad/rmc_2019/rmc_2019_ws/src/state_machine/package.xml")
 endif()
 
